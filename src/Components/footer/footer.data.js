@@ -1,134 +1,87 @@
-import facebook from 'assets/images/icons/facebook.png';
-import twitter from 'assets/images/icons/twitter.png';
-import github from 'assets/images/icons/github.png';
-import dribbble from 'assets/images/icons/dribbble.png';
+import facebook from "assets/images/icons/facebook.png";
+import twitter from "assets/images/icons/twitter.png";
+import youtube from "assets/images/icons/youtube.png";
+import linkedin from "assets/images/icons/linkedin.png";
 
 export const menuItems = [
   {
     id: 2,
-    title: 'About Us',
+    title: "About Us",
     items: [
       {
-        path: '#!',
-        label: 'Support Center',
+        path: "https://garbhagudi.com/about-overview/",
+        label: "About Us",
       },
       {
-        path: '#!',
-        label: 'Customer Support',
+        path: "tel:8880000909",
+        label: "Call us",
       },
       {
-        path: '#!',
-        label: 'About Us',
-      },
-      {
-        path: '#!',
-        label: 'Copyright',
-      },
-      {
-        path: '#!',
-        label: 'Popular Campaign',
+        path: "mailto:dreams@garbhagudi.com",
+        label: "Email",
       },
     ],
   },
   {
     id: 3,
-    title: 'Our Information',
+    title: "Our Information",
     items: [
       {
-        path: '#!',
-        label: 'Return Policy ',
+        path: "#!",
+        label: "Refund Policy ",
       },
       {
-        path: '#!',
-        label: 'Privacy Policy',
+        path: "#!",
+        label: "Privacy Policy",
       },
       {
-        path: '#!',
-        label: 'Terms & Conditions',
-      },
-      {
-        path: '#!',
-        label: 'Site Map',
-      },
-      {
-        path: '#!',
-        label: 'Store Hours',
+        path: "#!",
+        label: "Terms & Conditions",
       },
     ],
   },
   {
     id: 4,
-    title: 'My Account',
+    title: "Other Pages",
     items: [
       {
-        path: '#!',
-        label: 'Press inquiries',
+        path: "#!",
+        label: "IVF from Home ",
       },
       {
-        path: '#!',
-        label: 'Social media ',
+        path: "#!",
+        label: "Male Infertility",
       },
       {
-        path: '#!',
-        label: 'directories',
-      },
-      {
-        path: '#!',
-        label: 'Images & B-roll',
-      },
-      {
-        path: '#!',
-        label: 'Permissions',
+        path: "#!",
+        label: "Online Consultation",
       },
     ],
   },
   {
     id: 5,
-    title: 'Connect',
+    title: "Connect",
     items: [
       {
-        path: '#!',
+        path: "https://www.facebook.com/garbhagudiIVF",
         icon: facebook,
-        label: 'Facebook',
+        label: "Facebook",
       },
       {
-        path: '#!',
+        path: "https://twitter.com/garbhagudiivf",
         icon: twitter,
-        label: 'Twitter',
+        label: "Twitter",
       },
       {
-        path: '#!',
-        icon: github,
-        label: 'Github',
+        path: "https://www.youtube.com/c/GarbhaGudiIVFCentre/videos",
+        icon: youtube,
+        label: "Youtube",
       },
       {
-        path: '#!',
-        icon: dribbble,
-        label: 'Dribbble',
+        path: "https://www.linkedin.com/company/garbagudi",
+        icon: linkedin,
+        label: "Linkedin",
       },
     ],
-  },
-];
-
-export const footerNav = [
-  {
-    path: '#!',
-    label: 'Home',
-  },
-  {
-    path: '#!',
-    label: 'Advertise',
-  },
-  {
-    path: '#!',
-    label: 'Supports',
-  },
-  {
-    path: '#!',
-    label: 'Marketing',
-  },
-  {
-    path: '#!',
-    label: 'FAQ',
   },
 ];
