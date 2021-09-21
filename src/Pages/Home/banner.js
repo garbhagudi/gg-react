@@ -21,7 +21,11 @@ const Banner = () => {
                 <a href="https://garbhagudi.com/contact/">Get Started</a>
               </Button>
             </Box>
-            <Image src={illustration} alt="illustration" />
+            <Image
+              src={illustration}
+              alt="illustration"
+              style={{ marginTop: "30px" }}
+            />
           </Box>
         </Box>
       </Container>
