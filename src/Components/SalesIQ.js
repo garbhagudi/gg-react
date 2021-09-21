@@ -15,7 +15,7 @@ const useScript = (url, widgetCode) => {
     return () => {
       document.body.removeChild(script);
     };
-  }, [url]);
+  }, [url, widgetCode]);
 };
 
 export default function SalesIQ() {
