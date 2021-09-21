@@ -4,7 +4,7 @@ import "rc-tabs/assets/index.css";
 import "swiper/swiper-bundle.min.css";
 import "rc-drawer/assets/index.css";
 import "Components/icons/logo.css";
-import Banner from "Pages/Home/banner";
+const Banner = loadable(() => import("Pages/Home/banner"));
 const Services = loadable(() => import("Pages/Home/services"));
 const Testimonials = loadable(() => import("Pages/Home/testimonials"));
 const OurTeam = loadable(() => import("Pages/Home/our-team"));
