@@ -4,9 +4,9 @@ import { jsx, Box, Container } from "theme-ui";
 import { rgba } from "polished";
 import SectionHeading from "Components/section-heading";
 import Service from "Components/cards/service";
-import icon1 from "assets/images/icons/service4.png";
-import icon2 from "assets/images/icons/service2.png";
-import icon3 from "assets/images/icons/service3.png";
+import icon1 from "assets/images/icons/service4.webp";
+import icon3 from "assets/images/icons/service3.webp";
+import icon2 from "assets/images/icons/service2.webp";
 
 const data = [
   {
@@ -35,7 +35,7 @@ const Services = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Experience the Joy only children can bring."
+          title="Experience the Joy of Being Complete"
           description="We have helped more than 6750 Couples experience the joy of parenthood."
         />
         <Box sx={styles.contentWrapper}>

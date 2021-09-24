@@ -5,8 +5,8 @@ import Tabs, { TabPane } from "rc-tabs";
 import { RiCheckboxCircleFill } from "react-icons/ri";
 import { rgba } from "polished";
 import { LearnMore } from "Components/link";
-import tabImage2 from "assets/images/ivf@home.png";
-import tabImage1 from "assets/images/treatment.png";
+import tabImage2 from "assets/images/ivffromhome.webp";
+import tabImage1 from "assets/images/treatment.webp";
 
 const data = [
   {
@@ -35,7 +35,7 @@ const data = [
     moreLink: "#explore-more",
     image: tabImage2,
     list: [
-      "IVF @ Home",
+      "IVF from Home",
       "GarbhaGruha ",
       "Zero Cost EMI",
       "Paripoorna",

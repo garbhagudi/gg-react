@@ -3,7 +3,7 @@
 import { jsx, Box, Container, Image, Text } from "theme-ui";
 import Tabs, { TabPane } from "rc-tabs";
 import { rgba } from "polished";
-import quote from "assets/images/icons/quote.png";
+import quote from "assets/images/icons/quote.webp";
 import facebook from "assets/images/logos/facebook.webp";
 import google from "assets/images/logos/google.webp";
 import justdial from "assets/images/logos/justdial.webp";

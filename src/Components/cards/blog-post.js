@@ -2,7 +2,6 @@
 /** @jsx jsx */
 import { jsx, Box, Flex, Image, Heading, Text } from "theme-ui";
 import { rgba } from "polished";
-import { Link } from "Components/link";
 
 const BlogPost = ({ post }) => {
   return (
@@ -21,9 +20,9 @@ const BlogPost = ({ post }) => {
 
       <Box className="content">
         <Heading as="h3" sx={styles.title}>
-          <Link href={post?.link} target="_blank">
+          <a href={post?.link} target="_blank" rel="noreferrer">
             {post?.title}
-          </Link>
+          </a>
         </Heading>
         {post?.showDescription && (
           <Text as="p" sx={styles.description}>

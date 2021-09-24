@@ -17,7 +17,7 @@ import avatar7 from "assets/images/team/member7.webp";
 import avatar8 from "assets/images/team/member8.webp";
 import avatar9 from "assets/images/team/member9.webp";
 
-import arrowRight from "assets/images/icons/arrow-right.png";
+import arrowRight from "assets/images/icons/arrow-right.webp";
 
 SwiperCore.use([Navigation, Pagination]);
 

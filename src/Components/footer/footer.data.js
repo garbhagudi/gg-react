@@ -1,7 +1,7 @@
-import facebook from "assets/images/icons/facebook.png";
-import twitter from "assets/images/icons/twitter.png";
-import youtube from "assets/images/icons/youtube.png";
-import linkedin from "assets/images/icons/linkedin.png";
+import facebook from "assets/images/icons/facebook.webp";
+import twitter from "assets/images/icons/twitter.webp";
+import youtube from "assets/images/icons/youtube.webp";
+import linkedin from "assets/images/icons/linkedin.webp";
 
 export const menuItems = [
   {
