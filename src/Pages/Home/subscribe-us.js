@@ -3,6 +3,8 @@
 import { jsx, Box, Container, Button } from "theme-ui";
 import SectionHeading from "Components/section-heading";
 import illustration from "assets/images/subscribe-bg.webp";
+import loadable from "@loadable/component";
+const Video = loadable(() => import("Pages/Home/Video"));
 
 const SubscribeUs = () => {
   return (
@@ -12,8 +14,9 @@ const SubscribeUs = () => {
           <Box as="form" sx={styles.subscribe}>
             <SectionHeading
               title="Let us take your dream forward"
-              description="Book an Appointment and get a free consultation"
+              description="Meet this happy couple who turned their dream into a reality, and now it's your turn. Get a free Consultation Now"
             />
+            <Video url="https://www.youtube.com/watch?v=YVyaYhk8Hbk&t=4s" />
             <Box>
               <Button variant="secondary">
                 <a href="https://garbhagudi.com/contact/">Register Now</a>
@@ -42,14 +45,14 @@ const styles = {
   contentWrapper: {
     backgroundColor: "transparent",
     borderRadius: 15,
-    p: [null, null, null, "40px 110px 50px", "50px 50px", "40px"],
-    gap: "50px",
+    p: [null, null, null, "10px 110px 10px", "10px 10px", "10px"],
     display: ["block", null, "grid", "block", "grid"],
   },
   subscribe: {
     marginX: "auto",
     button: {
       mx: "35%",
+      mt: "50px",
     },
     a: {
       textDecoration: "none",
