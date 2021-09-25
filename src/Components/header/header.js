@@ -74,7 +74,7 @@ const styles = {
     justifyContent: "space-between",
   },
   logo: {
-    mr: [null, null, null, null, 6, 12],
+    mr: [null, null, null, null, 12, 12],
   },
   navbar: {
     display: ["none", null, null, null, "flex"],

@@ -4,7 +4,7 @@ import { jsx, Box, Container, Button } from "theme-ui";
 import SectionHeading from "Components/section-heading";
 import illustration from "assets/images/subscribe-bg.webp";
 import loadable from "@loadable/component";
-const Video = loadable(() => import("Pages/Home/Video"));
+const Video = loadable(() => import("Components/Video"));
 
 const SubscribeUs = () => {
   return (
@@ -16,7 +16,12 @@ const SubscribeUs = () => {
               title="Let us take your dream forward"
               description="Meet this happy couple who turned their dream into a reality, and now it's your turn."
             />
-            <Video url="https://www.youtube.com/watch?v=YVyaYhk8Hbk&t=4s" />
+            <Video
+              url={"https://www.youtube.com/embed/YVyaYhk8Hbk"}
+              title={
+                "Meet this happy couple who turned their dream into a reality, and now it's your turn."
+              }
+            />
             <Box>
               <Button variant="secondary">
                 <a href="https://garbhagudi.com/contact/">

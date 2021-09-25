@@ -12,10 +12,10 @@ const Video = ({ url, title }) => {
     <div ref={containerRef}>
       {lockRef.current && (
         <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/YVyaYhk8Hbk"
-          title="Meet this happy couple who turned their dream into a reality, and now it's your turn."
+          width="420px"
+          height="auto"
+          src={url}
+          title={title}
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
