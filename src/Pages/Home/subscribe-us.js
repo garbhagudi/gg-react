@@ -14,12 +14,14 @@ const SubscribeUs = () => {
           <Box as="form" sx={styles.subscribe}>
             <SectionHeading
               title="Let us take your dream forward"
-              description="Meet this happy couple who turned their dream into a reality, and now it's your turn. Get a free Consultation Now"
+              description="Meet this happy couple who turned their dream into a reality, and now it's your turn."
             />
             <Video url="https://www.youtube.com/watch?v=YVyaYhk8Hbk&t=4s" />
             <Box>
               <Button variant="secondary">
-                <a href="https://garbhagudi.com/contact/">Register Now</a>
+                <a href="https://garbhagudi.com/contact/">
+                  Get a Free Consultation Now
+                </a>
               </Button>
             </Box>
           </Box>
@@ -51,7 +53,7 @@ const styles = {
   subscribe: {
     marginX: "auto",
     button: {
-      mx: "35%",
+      mx: "25%",
       mt: "50px",
     },
     a: {

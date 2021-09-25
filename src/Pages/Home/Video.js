@@ -15,7 +15,7 @@ const Video = ({ url, title }) => {
           width="560"
           height="315"
           src="https://www.youtube.com/embed/YVyaYhk8Hbk"
-          title="YouTube video player"
+          title="Meet this happy couple who turned their dream into a reality, and now it's your turn."
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen

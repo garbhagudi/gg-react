@@ -20,14 +20,14 @@ const data = [
   {
     id: 2,
     logo: practo,
-    author: "By Sushant Rajapure, on Practo",
-    quote: `“We had great experience with Dr. Sophia and all staff at Garbhagudi, ECity. Everyone are extremely professional, helpful. Doctor was very clear on the treatment course to be taken and process. She is very focused, closely follows the treatment, its consequences, quickly changes medicines depending upon the results. We have received our biggest news in the first attempt itself. All this was done during initial COVID times. Complete staff cleanliness, follow-up of COVID protocols was an added advantage. Strongly recommend Dr. Sophia and Garbhagudi, Ecity centre!!!”`,
+    author: "By Manjunath T H, on Practo",
+    quote: `Dr Chaitra S K is very friendly in nature, first she recognises the problem and then she uses to start the treatment. Dr Chaitra is very expertise in this,so she can give a good results to the patients.I 'll suggest my friends who are facing difficulties,that to take the treatment under Dr Chaitra S K,Garbhagudi IVF,Kalyan Nagar.”`,
   },
   {
     id: 3,
     logo: justdial,
-    author: "By Eeswari Nersu, on JustDial",
-    quote: `“Hi friends! I would like to share my experience about Garbhagudi Hospital Hanumnatha Nagar & Kalyan Nagar, Bangalore. This is a best hospital for childless couple. We took treatment in so many places before visiting Garbhagudi hospital and we lost hope to have child. We Visited Hanumantha Nagar hospital to meet, Dr. Asha & Dr. Maheswari and they gave us hope and treated with very care. We succeeded in first attempt of IVF and now we are very happy. We visited Kalyan Nagra Dr.Chitra Madam after conceiving and she gave good treatment. If you want best results, please visit this hospital.”`,
+    author: "By Shivani Madan, on JustDial",
+    quote: `“Hi i m Arpitha Prakash . Thank you for Dr. Maheshwari and Dr Asha S Vijay madam and Garbhagudi team , after 5 years our dream came true.The people at garbhagudi are very caring supportive. Atmosphere is like family. I wish the garbhagudi Hanumanthnagar branch to be successful and get more positive results and All the best to this team.”`,
   },
   {
     id: 4,
