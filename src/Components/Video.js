@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import useIntersectionObserver from "@react-hook/intersection-observer";
+import { Embed } from "@theme-ui/components";
 
 const Video = ({ url, title }) => {
   const containerRef = useRef();
@@ -8,21 +9,7 @@ const Video = ({ url, title }) => {
   if (isIntersecting) {
     lockRef.current = true;
   }
-  return (
-    <div ref={containerRef}>
-      {lockRef.current && (
-        <iframe
-          width="420px"
-          height="auto"
-          src={url}
-          title={title}
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      )}
-    </div>
-  );
+  return <div ref={containerRef}>{lockRef.current && <Embed src={url} />}</div>;
 };
 
 export default Video;
