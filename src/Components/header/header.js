@@ -31,10 +31,8 @@ export default function Header() {
                     </a>
                   </Button>
                 </Box>
-                <Button variant="text" sx={styles.getStartedMobile}>
-                  <a href="https://garbhagudi.com/contact/">
-                    Book An Appointment
-                  </a>
+                <Button variant="secondary" sx={styles.getStartedMobile}>
+                  <a href="https://garbhagudi.com/contact/">Book Now</a>
                 </Button>
                 <NavbarDrawer />
               </Box>
@@ -118,7 +116,7 @@ const styles = {
     display: ["flex", null, null, null, "none"],
     a: {
       textDecoration: "none",
-      color: "secondary",
+      color: "white",
     },
   },
   closeButton: {

@@ -1,8 +1,8 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx } from 'theme-ui';
-import { Link } from 'Components/link';
-import LogoSvg from 'Components/icons/logo';
+import { jsx } from "theme-ui";
+import { Link } from "Components/link";
+import LogoSvg from "Components/icons/logo";
 
 export default function Logo({ isSticky, footer, ...props }) {
   return (
@@ -13,12 +13,12 @@ export default function Logo({ isSticky, footer, ...props }) {
 }
 const styles = {
   logo: {
-    alignItems: 'center',
-    cursor: 'pointer',
-    display: 'inline-flex',
+    alignItems: "center",
+    cursor: "pointer",
+    display: "inline-flex",
     svg: {
-      height: 'auto',
-      width: [128, null, '100%'],
+      height: "auto",
+      width: [200, null, "100%"],
     },
   },
 };
