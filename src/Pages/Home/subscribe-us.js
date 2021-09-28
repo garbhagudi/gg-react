@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Container, Heading, Button } from "theme-ui";
 import BgShape from "assets/images/cta-shape-1.svg";
 import btnShape from "assets/images/cta-btn-shape-1.svg";
+import { Link } from "react-router-dom";
 const CallToAction = () => {
   return (
     <Box sx={styles.wrapper}>
@@ -13,7 +14,9 @@ const CallToAction = () => {
             dreams Forward.
           </Heading>
           <Box sx={styles.btnWrapper}>
-            <Button sx={styles.btn}>BOOK A FREE CONSULTATION</Button>
+            <Button sx={styles.btn}>
+              <Link to="/contact-us">BOOK A FREE CONSULTATION</Link>
+            </Button>
           </Box>
         </Box>
       </Container>

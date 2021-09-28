@@ -17,10 +17,6 @@ export default [
     label: "Why Us",
   },
   {
-    path: "blog",
-    label: "Blog",
-  },
-  {
     path: "",
     label: "",
   },

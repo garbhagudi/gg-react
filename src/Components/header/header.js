@@ -7,6 +7,7 @@ import { NavLink } from "Components/link";
 import { DrawerProvider } from "contexts/drawer/drawer-provider";
 import NavbarDrawer from "./navbar-drawer";
 import menuItems from "./header.data";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -26,13 +27,11 @@ export default function Header() {
                     ))}
                   </Box>
                   <Button variant="text" sx={styles.getStartedDesktop}>
-                    <a href="https://garbhagudi.com/contact/">
-                      Book An Appointment
-                    </a>
+                    <Link to="/contact-us">Book An Appointment</Link>
                   </Button>
                 </Box>
                 <Button variant="secondary" sx={styles.getStartedMobile}>
-                  <a href="https://garbhagudi.com/contact/">Book Now</a>
+                  <Link to="/contact-us">Book Now</Link>
                 </Button>
                 <NavbarDrawer />
               </Box>
