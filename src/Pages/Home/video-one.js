@@ -5,7 +5,7 @@ import { Link } from "Components/link";
 import { FaPlay } from "react-icons/fa";
 import ModalVideo from "react-modal-video";
 
-import videoImg from "assets/images/video.png";
+import videoImg from "assets/images/video.webp";
 
 const VideoOne = () => {
   const [videoOpen, setVideoOpen] = useState(false);
