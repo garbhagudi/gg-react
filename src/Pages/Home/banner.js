@@ -12,8 +12,8 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Let us help you initialize your Journey of Parenthood"
-            description="GarbhaGudi has been awarded as Best IVF & Fertility Hospital in India "
+            title="Thousands of babies and millions of memories began with a visit to GarbhaGudi"
+            description="Starting new chapters for families since 2011"
           />
           <Box as="figure" sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>

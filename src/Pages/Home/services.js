@@ -36,7 +36,7 @@ const Services = () => {
         <SectionHeading
           sx={styles.heading}
           title="Experience the Joy of Being Complete"
-          description="We have helped more than 6750 Couples experience the joy of parenthood."
+          description="GarbhaGudi IVF Center is guided by the highest ethical standards, providing patients with the best quality, individualized, compassionate care."
         />
         <Box sx={styles.contentWrapper}>
           {data?.map((item) => (

@@ -17,7 +17,7 @@ export default function App() {
             <Route component={IvfAtHome} path="/ivf-from-home" />
             <Route
               path="/contact-us"
-              render={() => (window.location.href = "form.html")}
+              render={() => (window.location.href = "contact-us.html")}
             />
           </Switch>
           <SalesIQ />

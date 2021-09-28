@@ -9,7 +9,7 @@ import TeamMember from "Components/cards/team-member";
 
 import avatar1 from "assets/images/team/member1.webp";
 import avatar2 from "assets/images/team/member2.webp";
-import avatar3 from "assets/images/team/member3.webp";
+// import avatar3 from "assets/images/team/member3.webp";
 import avatar4 from "assets/images/team/member4.webp";
 import avatar5 from "assets/images/team/member5.webp";
 import avatar6 from "assets/images/team/member6.webp";
@@ -38,14 +38,14 @@ const data = [
     branch: "Kalyan Nagar & Marathahalli",
     link: "https://garbhagudi.com/dr-chaitra-s-k/",
   },
-  {
-    id: 3,
-    avatar: avatar3,
-    name: "Dr Sophia Keisham Devi",
-    designation: "Senior Fertility Specialist",
-    branch: "Electronic City",
-    link: "https://garbhagudi.com/dr-sophia-devi/",
-  },
+  // {
+  //   id: 3,
+  //   avatar: avatar3,
+  //   name: "Dr Sophia Keisham Devi",
+  //   designation: "Senior Fertility Specialist",
+  //   branch: "Electronic City",
+  //   link: "https://garbhagudi.com/dr-sophia-devi/",
+  // },
   {
     id: 4,
     avatar: avatar4,
@@ -154,7 +154,7 @@ const OurTeam = () => {
         <SectionHeading
           sx={styles.heading}
           title="Meet our superheros"
-          description=" Team of fertility specialists like gynecologists, embryologists, technicians and staff to help conceive "
+          description=" Our team of Fertility Specialists have been recognized for their extensive clinical experience and research contributions, as well as for their success in treating the most challenging fertility cases."
         />
       </Container>
       <Box
@@ -207,7 +207,7 @@ const styles = {
   },
   heading: {
     p: {
-      maxWidth: 500,
+      maxWidth: 700,
       m: "10px auto 0",
     },
   },
