@@ -1,8 +1,6 @@
 import React from "react";
 import { Box, Container, Grid, Heading, Text } from "theme-ui";
-
 import Image from "Components/image";
-
 import bannerImg from "assets/images/ivffromhome.webp";
 
 const Banner = () => {
