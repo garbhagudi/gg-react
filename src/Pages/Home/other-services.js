@@ -13,7 +13,7 @@ const data = [
     icon: icon5,
     moreLink: "#learn-more",
     title: "Free Second Opinion",
-    description: `Patients can meet our doctors and understand if the advised treatment is suitable for them.`,
+    description: `Patients can come and meet our doctors and understand if the advised treatment is the best thing for the patient couple.`,
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const data = [
 
 const OtherServices = () => {
   return (
-    <Box as="section" sx={styles.section}>
+    <Box as="section" sx={styles.section} id="why-us">
       <Container>
         <SectionHeading
           sx={styles.heading}

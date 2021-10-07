@@ -1,7 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Flex } from "theme-ui";
-import Header from "./header/header";
 import Footer from "./footer/footer";
 export default function Layout({ children }) {
   return (
@@ -12,7 +11,6 @@ export default function Layout({ children }) {
         justifyContent: "space-between",
       }}
     >
-      <Header />
       <main
         sx={{
           variant: "layout.main",

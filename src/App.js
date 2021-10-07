@@ -1,11 +1,12 @@
 import { ThemeProvider } from "theme-ui";
 import theme from "theme";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Layout from "Components/layout";
-import Home from "Pages/Home";
-import IvfAtHome from "Pages/IvfFromHome";
-import SalesIQ from "Components/SalesIQ";
 import "app.css";
+import SalesIQ from "Components/SalesIQ";
+import loadable from "@loadable/component";
+const Layout = loadable(() => import("Components/layout"));
+const Home = loadable(() => import("Pages/Home"));
+const IvfAtHome = loadable(() => import("Pages/IvfFromHome"));
 
 export default function App() {
   return (

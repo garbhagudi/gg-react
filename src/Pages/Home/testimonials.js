@@ -3,6 +3,7 @@
 import { jsx, Box, Container, Image, Text } from "theme-ui";
 import Tabs, { TabPane } from "rc-tabs";
 import { rgba } from "polished";
+import SectionHeading from "Components/section-heading";
 import quote from "assets/images/icons/quote.webp";
 import facebook from "assets/images/logos/facebook.webp";
 import google from "assets/images/logos/google.webp";
@@ -45,8 +46,13 @@ const data = [
 
 const Testimonials = () => {
   return (
-    <Box as="section" id="testimonials" sx={styles.section}>
+    <Box as="section" id="testimonial" sx={styles.section}>
       <Container>
+        <SectionHeading
+          sx={styles.heading}
+          title="Experience the Joy of Being Complete"
+          description="GarbhaGudi IVF Center is guided by the highest ethical standards, providing patients with the best quality, individualized, compassionate care."
+        />
         <Tabs
           sx={styles.tabs}
           animated={{ tabPane: true }}
@@ -80,9 +86,9 @@ const styles = {
     backgroundColor: rgba("#FFF5ED", 0.5),
     pt: [7, null, null, 9, null, 10, 11],
     pb: [9, null, null, 10, 11],
+    mb: "32px",
   },
   tabs: {
-    border: 0,
     flexDirection: ["column-reverse", null, null, null, null, "column"],
     ".rc-tabs-nav": {
       mt: [8, null, null, 9, 11],

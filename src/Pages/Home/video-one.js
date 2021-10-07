@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Box, Heading, Text } from "theme-ui";
+import { Container, Box, Heading } from "theme-ui";
 import Image from "Components/image";
 import { Link } from "Components/link";
 import { FaPlay } from "react-icons/fa";
@@ -17,13 +17,9 @@ const VideoOne = () => {
     <Box as="section" sx={styles.video}>
       <Container>
         <Heading as="h3">
-          Leading companies trust us <br /> to develop software
+          Meet this Couple who turned their Dream into a reality. <br /> Now its
+          your turn.
         </Heading>
-        <Text as="p">
-          We believe it’s important for everyone to have access to software{" "}
-          <br />
-          especially when it comes to digital learning be navigate.
-        </Text>
         <Box sx={styles.videoBox}>
           <Image src={videoImg} alt="testimonial video" />
           <Link
@@ -50,12 +46,11 @@ export default VideoOne;
 
 const styles = {
   video: {
-    pt: [null, null, null, null, null, 110],
+    pt: [null, null, null, null, null, 30],
     textAlign: "center",
     h3: {
-      margin: 0,
-      color: "black",
-      fontSize: [5, null, null, "21px", "36px", "32px", 8],
+      mb: 8,
+      fontSize: [5, null, null, "21px", "36px", "32px", 9],
       letterSpacing: ["-0.5px", null, null, null, null, "-1.5px"],
       fontWeight: "bold",
       lineHeight: [1.6, null, null, 1.25],
@@ -79,7 +74,7 @@ const styles = {
       display: "flex",
       width: ["100%", null, null, null, "80%", null, "100%"],
       border: "solid",
-      borderColor: "secondary",
+      borderColor: "borderColor",
       borderRadius: "10px",
       borderWidth: "2px",
     },

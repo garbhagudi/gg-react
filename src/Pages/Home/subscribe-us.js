@@ -8,11 +8,7 @@ const CallToAction = () => {
     <Box sx={styles.wrapper}>
       <Container sx={styles.container}>
         <Box sx={styles.inner}>
-          <Heading as="h3">
-            Let us take your
-            <br />
-            dreams Forward.
-          </Heading>
+          <Heading as="h3">Let us take your dreams Forward.</Heading>
           <Box sx={styles.btnWrapper}>
             <Button sx={styles.btn}>
               <Link to="/contact-us">BOOK A FREE CONSULTATION</Link>
@@ -29,7 +25,7 @@ export default CallToAction;
 const styles = {
   wrapper: {
     padding: ["45px 30px 50px", null, null, "45px 50px", null, "45px 70px"],
-    mt: ["20px", null, null, "100px"],
+    mt: ["20px", null, null, "80px"],
   },
   inner: {
     padding: ["45px 30px 50px", null, null, "45px 50px", null, "45px 70px"],
@@ -90,6 +86,10 @@ const styles = {
     "&:hover": {
       backgroundColor: "black",
       color: "#fff",
+    },
+    a: {
+      color: "secondary",
+      textDecoration: "none",
     },
   },
 };

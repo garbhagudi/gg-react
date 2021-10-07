@@ -42,25 +42,11 @@ const data = [
       "and more",
     ],
   },
-  // {
-  //   id: 3,
-  //   tabTitle: "Holistic Approach",
-  //   title: `We will turn your idea in the successful business model framework`,
-  //   description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
-  //   moreLink: "#explore-more",
-  //   image: tabImage1,
-  //   list: [
-  //     "Medical and vision",
-  //     "Life insurance",
-  //     "HSAs and FSAs",
-  //     "Commuter benefits",
-  //   ],
-  // },
 ];
 
 const WhyUs = () => {
   return (
-    <Box as="section" id="why-us" sx={styles.section}>
+    <Box as="section" sx={styles.section}>
       <Container>
         <Tabs sx={styles.tabs} animated={{ tabPane: true }}>
           {data?.map((item) => (
