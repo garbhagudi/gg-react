@@ -10,7 +10,7 @@ export default [
   },
   {
     path: "how",
-    label: "How it Works",
+    label: "How it Works ? ",
   },
   {
     path: "faq",

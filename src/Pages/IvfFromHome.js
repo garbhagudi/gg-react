@@ -1,6 +1,8 @@
 import React from "react";
 import loadable from "@loadable/component";
-const Header = loadable(() => import("Components/header/HeaderIVFHome/header"));
+const IfhHeader = loadable(() =>
+  import("Components/header/HeaderIVFHome/header")
+);
 const Banner = loadable(() => import("Pages/IvfFromHome/banner"));
 const WorkFlow = loadable(() => import("Pages/IvfFromHome/workflow"));
 const SubscribeUs = loadable(() => import("Pages/Home/subscribe-us"));
@@ -11,7 +13,7 @@ const VideoTwo = loadable(() => import("Pages/IvfFromHome/video-ifh"));
 const IvfFromHome = () => {
   return (
     <div>
-      <Header />
+      <IfhHeader />
       <Banner />
       <VideoTwo />
       <WorkFlow />

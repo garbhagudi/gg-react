@@ -4,11 +4,10 @@
   "private": true,
   "dependencies": {
     "@loadable/component": "^5.15.0",
-    "@react-hook/intersection-observer": "^3.1.1",
     "framer-motion": "^4.1.17",
     "polished": "^4.0.5",
-    "rc-drawer": "^4.2.1",
-    "rc-tabs": "^11.7.3",
+    "rc-drawer": "^4.4.2",
+    "rc-tabs": "^11.10.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.1.0",
@@ -17,7 +16,7 @@
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.1",
     "react-stickynode": "^3.0.4",
-    "theme-ui": "^0.3.5"
+    "theme-ui": "^0.11.3"
   },
   "scripts": {
     "start": "react-scripts start",

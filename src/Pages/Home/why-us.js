@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Box, Container, Heading, Text, Image } from "theme-ui";
-import Tabs, { TabPane } from "rc-tabs";
+import Tabs, { TabPane } from "rc-tabs/";
 import { RiCheckboxCircleFill } from "react-icons/ri";
 import { rgba } from "polished";
 import { LearnMore } from "Components/link";

@@ -135,7 +135,7 @@ const styles = {
     ".active": {
       backgroundColor: "#F8F8F8",
       "::before": {
-        backgroundColor: "secondary",
+        backgroundColor: "primary",
       },
     },
   },

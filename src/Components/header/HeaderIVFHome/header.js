@@ -5,7 +5,7 @@ import Sticky from "react-stickynode";
 import Logo from "Components/logo";
 import { ScrollLink } from "Components/link";
 import { DrawerProvider } from "contexts/drawer/drawer-provider";
-import NavbarDrawer from "./navbar-drawer";
+import NavbarDrawer from "Components/header/HeaderHome/navbar-drawer";
 import menuItems from "./header.data";
 import { Link } from "react-router-dom";
 
