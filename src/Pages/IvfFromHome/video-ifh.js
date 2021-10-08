@@ -4,9 +4,9 @@ import { Link } from "Components/link";
 import { FaPlay } from "react-icons/fa";
 
 import loadable from "@loadable/component";
+import videoImg from "assets/images/ivffromhome-thumb.webp";
 const Image = loadable(() => import("Components/image"));
 const ModalVideo = loadable(() => import("react-modal-video"));
-const videoImg = loadable(() => import("assets/images/ivffromhome-thumb.webp"));
 
 const VideoTwo = () => {
   const [videoOpen, setVideoOpen] = useState(false);
