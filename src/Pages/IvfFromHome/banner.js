@@ -1,7 +1,8 @@
 import React from "react";
 import { Box, Container, Grid, Heading, Text } from "theme-ui";
-import Image from "Components/image";
 import bannerImg from "assets/images/ivffromhome.webp";
+import loadable from "@loadable/component";
+const Image = loadable(() => import("Components/image"));
 
 const Banner = () => {
   return (
@@ -72,7 +73,7 @@ const styles = {
   },
   image: {
     img: {
-      display: "flex",
+      display: ["none", null, null, "flex"],
       width: "500px",
       mixBlendMode: "darken",
       position: "relative",

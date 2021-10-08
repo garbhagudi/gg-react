@@ -2,15 +2,15 @@
 /** @jsx jsx **/
 import { jsx } from "theme-ui";
 import { Container, Grid } from "theme-ui";
-import SectionHeader from "Components/section-heading";
-import TeamCard from "Components/cards/team-member";
-
+import loadable from "@loadable/component";
 import Member1 from "assets/images/team/member1.webp";
 import Member2 from "assets/images/team/member2.webp";
 import Member7 from "assets/images/team/member7.webp";
 import Member4 from "assets/images/team/member4.webp";
 import Member5 from "assets/images/team/member5.webp";
 import Member6 from "assets/images/team/member6.webp";
+const SectionHeader = loadable(() => import("Components/section-heading"));
+const TeamCard = loadable(() => import("Components/cards/team-member"));
 
 const data = [
   {

@@ -1,6 +1,6 @@
-import React from 'react';
-import { Image as Img } from 'theme-ui';
+import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Image({ src, ...rest }) {
-  return <Img src={src} {...rest} />;
+  return <LazyLoadImage src={src} {...rest} />;
 }

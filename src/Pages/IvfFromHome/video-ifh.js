@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Container, Box, Heading } from "theme-ui";
 import { Link } from "Components/link";
 import { FaPlay } from "react-icons/fa";
-
 import loadable from "@loadable/component";
 import videoImg from "assets/images/ivffromhome-thumb.webp";
 const Image = loadable(() => import("Components/image"));

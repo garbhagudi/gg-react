@@ -1,8 +1,9 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Container, Box } from "theme-ui";
-import SectionHeader from "Components/section-heading";
-import Accordion from "Components/accordion/accordion";
+import loadable from "@loadable/component";
+const SectionHeading = loadable(() => import("Components/section-heading"));
+const Accordion = loadable(() => import("Components/accordion/accordion"));
 const faqs = [
   {
     title:
@@ -96,7 +97,7 @@ export default function Faq() {
       id="faq"
     >
       <Container>
-        <SectionHeader
+        <SectionHeading
           title="Do you have any quesiton"
           description="Our support team ready to help you, please contact with them"
         />

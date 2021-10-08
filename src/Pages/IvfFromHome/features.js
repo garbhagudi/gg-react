@@ -2,9 +2,10 @@
 /** @jsx jsx */
 
 import { jsx, Box, Container } from "theme-ui";
-import SectionHeading from "Components/section-heading";
-import Feature from "Components/cards/feature";
 import { Fragment } from "react";
+import loadable from "@loadable/component";
+const Feature = loadable(() => import("Components/cards/feature"));
+const SectionHeading = loadable(() => import("Components/section-heading"));
 
 const data = [
   {

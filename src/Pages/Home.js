@@ -1,7 +1,5 @@
 import React from "react";
 import loadable from "@loadable/component";
-import "../app.css";
-import "rc-drawer/assets/index.css";
 
 const Header = loadable(() => import("Components/header/HeaderHome/header"));
 const Banner = loadable(() => import("Pages/Home/banner"));

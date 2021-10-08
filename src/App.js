@@ -3,6 +3,7 @@ import theme from "theme";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "app.css";
 import "react-modal-video/css/modal-video.min.css";
+import "rc-drawer/assets/index.css";
 import loadable from "@loadable/component";
 const SalesIQ = loadable(() => import("Components/SalesIQ"));
 const Home = loadable(() => import("Pages/Home"));

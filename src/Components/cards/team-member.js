@@ -1,7 +1,8 @@
 /** @jsxRuntime classic **/
 /** @jsx jsx **/
 import { jsx } from "theme-ui";
-import { Text, Heading, Image, Box } from "theme-ui";
+import { Text, Heading, Box } from "theme-ui";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function TeamCard({
   src,
@@ -12,7 +13,7 @@ export default function TeamCard({
 }) {
   return (
     <Box sx={styles.card}>
-      <Image src={src} alt={altText} sx={styles.memberThumb} />
+      <LazyLoadImage src={src} alt={altText} sx={styles.memberThumb} />
       <Box sx={styles.infoWrapper}>
         <Heading className="info__name" sx={styles.infoWrapper.name}>
           <a href={website}>{title} </a>

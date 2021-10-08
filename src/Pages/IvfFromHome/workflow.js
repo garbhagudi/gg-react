@@ -1,9 +1,9 @@
 import { Heading, Box, Text, Container, Grid } from "theme-ui";
 import React from "react";
-import SectionHeading from "Components/section-heading";
-
 import ArrowOdd from "assets/images/arrow-odd.png";
 import ArrowEven from "assets/images/arrow-even.png";
+import loadable from "@loadable/component";
+const SectionHeading = loadable(() => import("Components/section-heading"));
 
 const workflowData = [
   {

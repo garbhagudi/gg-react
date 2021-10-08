@@ -1,10 +1,12 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Box, Container, Button, Image } from "theme-ui";
+import { jsx, Box, Container, Button } from "theme-ui";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { rgba } from "polished";
-import SectionHeading from "Components/section-heading";
-import illustration from "assets/images/banner-illustration.webp";
 import { Link } from "react-router-dom";
+import loadable from "@loadable/component";
+import illustration from "assets/images/banner-illustration.webp";
+const SectionHeading = loadable(() => import("Components/section-heading"));
 
 const Banner = () => {
   return (
@@ -22,7 +24,7 @@ const Banner = () => {
                 <Link to="/contact-us">Get Started</Link>
               </Button>
             </Box>
-            <Image
+            <LazyLoadImage
               src={illustration}
               alt="illustration"
               style={{ marginTop: "30px" }}

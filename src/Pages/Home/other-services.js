@@ -1,11 +1,12 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Box, Container } from "theme-ui";
-import SectionHeading from "Components/section-heading";
-import Service from "Components/cards/service";
+import loadable from "@loadable/component";
 import icon5 from "assets/images/icons/service4.webp";
 import icon6 from "assets/images/icons/service7.webp";
 import icon9 from "assets/images/icons/service9.webp";
+const SectionHeading = loadable(() => import("Components/section-heading"));
+const Service = loadable(() => import("Components/cards/service"));
 
 const data = [
   {

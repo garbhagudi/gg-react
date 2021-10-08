@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { Container, Box, Heading } from "theme-ui";
-import Image from "Components/image";
+import loadable from "@loadable/component";
+
 import { Link } from "Components/link";
 import { FaPlay } from "react-icons/fa";
-import ModalVideo from "react-modal-video";
-
 import videoImg from "assets/images/video.webp";
+const ModalVideo = loadable(() => import("react-modal-video"));
+const Image = loadable(() => import("Components/image"));
 
 const VideoOne = () => {
   const [videoOpen, setVideoOpen] = useState(false);

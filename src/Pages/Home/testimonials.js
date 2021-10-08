@@ -88,6 +88,9 @@ const styles = {
     pb: [9, null, null, 10, 11],
     mb: "32px",
   },
+  heading: {
+    textAlign: "Center",
+  },
   tabs: {
     flexDirection: ["column-reverse", null, null, null, null, "column"],
     ".rc-tabs-nav": {

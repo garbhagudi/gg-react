@@ -1,13 +1,14 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Box, Container, Button } from "theme-ui";
-import Sticky from "react-stickynode";
-import Logo from "Components/logo";
+import loadable from "@loadable/component";
 import { ScrollLink } from "Components/link";
 import { DrawerProvider } from "contexts/drawer/drawer-provider";
-import NavbarDrawer from "./navbar-drawer";
-import menuItems from "./header.data";
 import { Link } from "react-router-dom";
+import menuItems from "./header.data";
+const Sticky = loadable(() => import("react-stickynode"));
+const Logo = loadable(() => import("Components/logo"));
+const NavbarDrawer = loadable(() => import("./navbar-drawer"));
 
 export default function Header() {
   return (

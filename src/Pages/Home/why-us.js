@@ -1,10 +1,11 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Box, Container, Heading, Text, Image } from "theme-ui";
+import { jsx, Box, Container, Heading, Text } from "theme-ui";
 import Tabs, { TabPane } from "rc-tabs/";
 import { RiCheckboxCircleFill } from "react-icons/ri";
 import { rgba } from "polished";
 import { LearnMore } from "Components/link";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import tabImage2 from "assets/images/ivffromhome.webp";
 import tabImage1 from "assets/images/treatment.webp";
 
@@ -76,7 +77,7 @@ const WhyUs = () => {
                 </Box>
               </Box>
               <Box sx={styles.illustration}>
-                <Image src={item.image} alt="illustration" />
+                <LazyLoadImage src={item.image} alt="illustration" />
               </Box>
             </TabPane>
           ))}
@@ -177,7 +178,7 @@ const styles = {
     justifyContent: "center",
     textAlign: [null, null, null, null, null, "center"],
     img: {
-      maxWidth: ["65%", null, null, "100%", null, "90%", "100%"],
+      maxWidth: ["0%", null, null, "100%", null, "90%", "100%"],
     },
   },
 };
