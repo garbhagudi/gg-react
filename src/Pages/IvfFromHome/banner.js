@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Container, Grid, Heading, Text } from "theme-ui";
-import bannerImg from "assets/images/ivffromhome.webp";
 import loadable from "@loadable/component";
 const Image = loadable(() => import("Components/image"));
 
@@ -22,7 +21,7 @@ const Banner = () => {
           </Box>
           <Box sx={styles.image}>
             <Image
-              src={bannerImg}
+              src="https://res.cloudinary.com/garbhagudi/image/upload/v1633779919/garbhagudi-ivf/Banners/ivffromhome_tdjvoq.webp"
               alt="IVF from Home Logo"
               style={{ width: "450px", height: "350px" }}
             />

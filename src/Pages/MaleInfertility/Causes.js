@@ -2,10 +2,6 @@ import React from "react";
 import { Box, Container, Grid, Text, Heading } from "theme-ui";
 import loadable from "@loadable/component";
 import { rgba } from "polished";
-import image1 from "assets/images/maleInfImg/low-sperm.jpg";
-import image2 from "assets/images/maleInfImg/sperm-movement.jpg";
-import image3 from "assets/images/maleInfImg/sperm-abnormal.jpg";
-import image4 from "assets/images/maleInfImg/sperm-quality.jpg";
 const Image = loadable(() => import("Components/image"));
 
 const Causes = () => {
@@ -34,7 +30,7 @@ const Causes = () => {
             </Box>
             <Box sx={styles.image}>
               <Image
-                src={image1}
+                src="https://res.cloudinary.com/garbhagudi/image/upload/v1633780881/garbhagudi-ivf/Images%20/low-sperm_j21spq.jpg"
                 alt="Low Sperm Count Image"
                 style={{
                   width: "250px",
@@ -61,7 +57,7 @@ const Causes = () => {
             </Box>
             <Box sx={styles.image}>
               <Image
-                src={image2}
+                src="https://res.cloudinary.com/garbhagudi/image/upload/v1633780880/garbhagudi-ivf/Images%20/sperm-movement_mpnozg.jpg"
                 alt="IVF from Home Logo"
                 style={{
                   width: "250px",
@@ -89,7 +85,7 @@ const Causes = () => {
             </Box>
             <Box sx={styles.image}>
               <Image
-                src={image3}
+                src="https://res.cloudinary.com/garbhagudi/image/upload/v1633780880/garbhagudi-ivf/Images%20/sperm-abnormal_doltpg.jpg"
                 alt="IVF from Home Logo"
                 style={{
                   width: "250px",
@@ -119,7 +115,7 @@ const Causes = () => {
             </Box>
             <Box sx={styles.image}>
               <Image
-                src={image4}
+                src="https://res.cloudinary.com/garbhagudi/image/upload/v1633780880/garbhagudi-ivf/Images%20/sperm-quality_aqp6kp.jpg"
                 alt="IVF from Home Logo"
                 style={{
                   width: "250px",

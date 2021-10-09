@@ -2,30 +2,27 @@
 /** @jsx jsx */
 import { jsx, Box, Container } from "theme-ui";
 import loadable from "@loadable/component";
-import icon5 from "assets/images/icons/service4.webp";
-import icon6 from "assets/images/icons/service7.webp";
-import icon9 from "assets/images/icons/service9.webp";
 const SectionHeading = loadable(() => import("Components/section-heading"));
 const Service = loadable(() => import("Components/cards/service"));
 
 const data = [
   {
     id: 2,
-    icon: icon5,
+    icon: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780927/garbhagudi-ivf/Icons/service4_jnvjwo.webp",
     moreLink: "#learn-more",
     title: "Free Second Opinion",
     description: `Patients can come and meet our doctors and understand if the advised treatment is the best thing for the patient couple.`,
   },
   {
     id: 3,
-    icon: icon6,
+    icon: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780927/garbhagudi-ivf/Icons/service7_xwcnxd.webp",
     moreLink: "#learn-more",
     title: "Financing Options",
     description: `0% interest for patients when they cannot manage the finances to meet the cost of procedures..`,
   },
   {
     id: 6,
-    icon: icon9,
+    icon: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780927/garbhagudi-ivf/Icons/service9_swtbp4.webp",
     moreLink: "#learn-more",
     title: "Online Support",
     description: `Patients can meet our doctors online to have a safe consultation during the pandemic.`,

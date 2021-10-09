@@ -3,7 +3,6 @@ import { Container, Box, Heading } from "theme-ui";
 import loadable from "@loadable/component";
 import { Link } from "Components/link";
 import { FaPlay } from "react-icons/fa";
-import videoImg from "assets/images/video.webp";
 const ModalVideo = loadable(() => import("react-modal-video"));
 const Image = loadable(() => import("Components/image"));
 
@@ -21,7 +20,10 @@ const VideoOne = () => {
           your turn.
         </Heading>
         <Box sx={styles.videoBox}>
-          <Image src={videoImg} alt="testimonial video" />
+          <Image
+            src="https://res.cloudinary.com/garbhagudi/image/upload/v1633779918/garbhagudi-ivf/Banners/video_cb2iey.webp"
+            alt="testimonial video"
+          />
           <Link
             path="/"
             aria-label="video btn"

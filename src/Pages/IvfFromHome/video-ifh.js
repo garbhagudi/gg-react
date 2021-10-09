@@ -3,7 +3,6 @@ import { Container, Box, Heading } from "theme-ui";
 import { Link } from "Components/link";
 import { FaPlay } from "react-icons/fa";
 import loadable from "@loadable/component";
-import videoImg from "assets/images/ivffromhome-thumb.webp";
 const Image = loadable(() => import("Components/image"));
 const ModalVideo = loadable(() => import("react-modal-video"));
 
@@ -18,7 +17,10 @@ const VideoTwo = () => {
       <Container>
         <Heading as="h3">IVF & IUI From Home ? Is it really Possible?</Heading>
         <Box sx={styles.videoBox}>
-          <Image src={videoImg} alt="testimonial video" />
+          <Image
+            src="https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_720,o_53,w_1280/v1633779918/garbhagudi-ivf/Banners/ivffromhome-thumb_dtliyc.webp"
+            alt="testimonial video"
+          />
           <Link
             path="/"
             aria-label="video btn"

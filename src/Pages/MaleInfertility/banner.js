@@ -5,7 +5,6 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import { rgba } from "polished";
 import { Link } from "react-router-dom";
 import loadable from "@loadable/component";
-import illustration from "assets/images/maleInf.webp";
 const SectionHeading = loadable(() => import("Components/section-heading"));
 
 const Banner = () => {
@@ -25,7 +24,7 @@ const Banner = () => {
               </Button>
             </Box>
             <LazyLoadImage
-              src={illustration}
+              src="https://res.cloudinary.com/garbhagudi/image/upload/v1633780493/garbhagudi-ivf/Banners/maleInf_umubsg.webp"
               alt="illustration"
               style={{ marginTop: "30px" }}
             />

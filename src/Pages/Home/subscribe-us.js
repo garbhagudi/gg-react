@@ -25,7 +25,7 @@ export default CallToAction;
 const styles = {
   wrapper: {
     padding: ["45px 30px 50px", null, null, "45px 50px", null, "45px 70px"],
-    mt: ["-55px", null, null, "20px"],
+    mt: ["-55px", null, null, "50px"],
   },
   inner: {
     padding: ["45px 30px 50px", null, null, "45px 50px", null, "45px 70px"],

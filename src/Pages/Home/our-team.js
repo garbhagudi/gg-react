@@ -3,19 +3,14 @@
 import { jsx } from "theme-ui";
 import { Container, Grid, Box } from "theme-ui";
 import loadable from "@loadable/component";
-import Member1 from "assets/images/team/member1.webp";
-import Member2 from "assets/images/team/member2.webp";
-import Member7 from "assets/images/team/member7.webp";
-import Member4 from "assets/images/team/member4.webp";
-import Member5 from "assets/images/team/member5.webp";
-import Member6 from "assets/images/team/member6.webp";
 const SectionHeader = loadable(() => import("Components/section-heading"));
 const TeamCard = loadable(() => import("Components/cards/team-member"));
 
 const data = [
   {
     id: 1,
-    imgSrc: Member1,
+    imgSrc:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1633780868/garbhagudi-ivf/Images%20/member1_kboo9r.webp",
     altText: "Dr Asha S Vijay",
     title: "Dr Asha S Vijay",
     designation: "Founder & Medical Director",
@@ -23,7 +18,8 @@ const data = [
   },
   {
     id: 2,
-    imgSrc: Member2,
+    imgSrc:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1633780868/garbhagudi-ivf/Images%20/member2_vd7of5.webp",
     altText: "Dr Chaithra S.K",
     title: "Dr Chaithra S.K",
     designation: "Senior Ferility Specialist",
@@ -31,7 +27,8 @@ const data = [
   },
   {
     id: 3,
-    imgSrc: Member4,
+    imgSrc:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1633780867/garbhagudi-ivf/Images%20/member4_hd1mpx.webp",
     altText: "Dr Maheshwari M",
     title: "Dr Maheshwari M",
     designation: "Senior Ferility Specialist",
@@ -39,7 +36,8 @@ const data = [
   },
   {
     id: 4,
-    imgSrc: Member5,
+    imgSrc:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1633780868/garbhagudi-ivf/Images%20/member5_irwdpd.webp",
     altText: "Dr Chinmayie R",
     title: "Dr Chinmayie R",
     designation: "Fertility Specialist",
@@ -47,7 +45,8 @@ const data = [
   },
   {
     id: 5,
-    imgSrc: Member6,
+    imgSrc:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1633780868/garbhagudi-ivf/Images%20/member6_rrjqnv.webp",
     altText: "Dr Swetha V",
     title: "Dr Swetha V",
     designation: "Fertility Specialist",
@@ -55,7 +54,8 @@ const data = [
   },
   {
     id: 6,
-    imgSrc: Member7,
+    imgSrc:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1633780868/garbhagudi-ivf/Images%20/member7_zys2om.webp",
     altText: "Dr Priyanka Rani",
     title: "Dr Priyanka Rani",
     designation: "Fertility Specialist",

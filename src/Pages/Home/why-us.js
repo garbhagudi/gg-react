@@ -6,17 +6,32 @@ import { RiCheckboxCircleFill } from "react-icons/ri";
 import { rgba } from "polished";
 import { LearnMore } from "Components/link";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import tabImage2 from "assets/images/ivffromhome.webp";
-import tabImage1 from "assets/images/treatment.webp";
 
 const data = [
   {
     id: 1,
+    tabTitle: "Value Added Services",
+    title: `Concerned about stepping out of your home during this Pandemic ?`,
+    description: `Our value added service was started specially for patients seeking infertility treatment during the ongoing pandemic. The idea is to help you start IVF treatment right from the safety of your home and minimize travel risks.`,
+    moreLink: "#explore-more",
+    image:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1633780583/garbhagudi-ivf/Images%20/ivffromhome_evpbae.webp",
+    list: [
+      "IVF from Home",
+      "GarbhaGruha ",
+      "Zero Cost EMI",
+      "Paripoorna",
+      "and more",
+    ],
+  },
+  {
+    id: 2,
     tabTitle: "Treatment Options",
     title: `You are not alone in fight against Infertility`,
     description: `Garbhagudi provides an in-depth analysis of infertility and come up with a tailored treatment protocol since every problem is distinct in essence.`,
     moreLink: "#explore-more",
-    image: tabImage1,
+    image:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1633780860/garbhagudi-ivf/Images%20/treatment_wykcf3.webp",
     list: [
       "IVF",
       "IUI",
@@ -26,21 +41,6 @@ const data = [
       "TESA/PESA",
       "ICSI",
       "Hyesteroscopy",
-    ],
-  },
-  {
-    id: 2,
-    tabTitle: "Value Added Services",
-    title: `Concerned about stepping out of your home during this Pandemic ?`,
-    description: `Our value added service was started specially for patients seeking infertility treatment during the ongoing pandemic. The idea is to help you start IVF treatment right from the safety of your home and minimize travel risks.`,
-    moreLink: "#explore-more",
-    image: tabImage2,
-    list: [
-      "IVF from Home",
-      "GarbhaGruha ",
-      "Zero Cost EMI",
-      "Paripoorna",
-      "and more",
     ],
   },
 ];
@@ -179,7 +179,7 @@ const styles = {
     justifyContent: "center",
     textAlign: [null, null, null, null, null, "center"],
     img: {
-      maxWidth: ["0%", null, null, "100%", null, "90%", "100%"],
+      maxWidth: ["65%", null, null, "100%", null, "90%", "100%"],
     },
   },
 };

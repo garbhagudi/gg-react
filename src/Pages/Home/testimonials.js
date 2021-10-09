@@ -5,40 +5,34 @@ import Tabs, { TabPane } from "rc-tabs";
 import { rgba } from "polished";
 import SectionHeading from "Components/section-heading";
 import quote from "assets/images/icons/quote.webp";
-import facebook from "assets/images/logos/facebook.webp";
-import google from "assets/images/logos/google.webp";
-import justdial from "assets/images/logos/justdial.webp";
-import practo from "assets/images/logos/practo.webp";
-import whatclinic from "assets/images/logos/whatclinic.webp";
-
 const data = [
   {
     id: 1,
-    logo: whatclinic,
+    logo: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780903/garbhagudi-ivf/Logos/whatclinic_trexqz.webp",
     author: "By Anees, on WhatClinic",
     quote: `Doctor Chaitra was very helpful and explained every bit very clearly, and sisters were also very helpful, I was happy going to GarbhaGudi, they have explained about the treatment and cost for it, I have to decide and get back to them.”`,
   },
   {
     id: 2,
-    logo: practo,
+    logo: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780902/garbhagudi-ivf/Logos/practo_warfpj.webp",
     author: "By Manjunath T H, on Practo",
     quote: `Dr Chaitra S K is very friendly in nature, first she recognises the problem and then she uses to start the treatment. Dr Chaitra is very expertise in this,so she can give a good results to the patients.I 'll suggest my friends who are facing difficulties,that to take the treatment under Dr Chaitra S K,Garbhagudi IVF,Kalyan Nagar.”`,
   },
   {
     id: 3,
-    logo: justdial,
+    logo: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780903/garbhagudi-ivf/Logos/justdial_jyy9ky.webp",
     author: "By Shivani Madan, on JustDial",
     quote: `“Hi i m Arpitha Prakash . Thank you for Dr. Maheshwari and Dr Asha S Vijay madam and Garbhagudi team , after 5 years our dream came true.The people at garbhagudi are very caring supportive. Atmosphere is like family. I wish the garbhagudi Hanumanthnagar branch to be successful and get more positive results and All the best to this team.”`,
   },
   {
     id: 4,
-    logo: google,
+    logo: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780903/garbhagudi-ivf/Logos/google_jfknrj.webp",
     author: "By Kumar Salunke, on Google",
     quote: `“We are feeling so happy and blessed to knew about this place and its amazing hospital with fabulous doctor and staff. Thank you so much to Dr Chinmayie mam and all the staff members and team. They are very caring and treated very well and all the staff are well behaved. All the test results are accurate and helpful to know the issue and starts treatment within no time. A big thank you to all”`,
   },
   {
     id: 5,
-    logo: facebook,
+    logo: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780902/garbhagudi-ivf/Logos/facebook_mrzesi.webp",
     author: "By Rammurthi, on Facebook",
     quote: `“Very well organized hospital with well-trained experts who guide you throughout the process and explain things in detail!  Affordable prices and treatments at its best! Qualitative services! Would recommend this place for best IVF treatments”`,
   },

@@ -1,7 +1,5 @@
 import { Heading, Box, Text, Container, Grid } from "theme-ui";
 import React from "react";
-import ArrowOdd from "assets/images/arrow-odd.png";
-import ArrowEven from "assets/images/arrow-even.png";
 import loadable from "@loadable/component";
 const SectionHeading = loadable(() => import("Components/section-heading"));
 
@@ -111,10 +109,10 @@ const styles = {
         },
       },
       "&:nth-of-type(2n-1)::before": {
-        backgroundImage: `url(${ArrowOdd})`,
+        backgroundImage: `url("https://res.cloudinary.com/garbhagudi/image/upload/v1633781759/garbhagudi-ivf/Icons/arrow-odd_tk9ujl.webp")`,
       },
       "&:nth-of-type(2n)::before": {
-        backgroundImage: `url(${ArrowEven})`,
+        backgroundImage: `url("https://res.cloudinary.com/garbhagudi/image/upload/v1633781759/garbhagudi-ivf/Icons/arrow-even_b83vd5.webp")`,
         top: 17,
       },
       "&:last-child::before": {
