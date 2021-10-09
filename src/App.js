@@ -9,6 +9,7 @@ const SalesIQ = loadable(() => import("Components/SalesIQ"));
 const Home = loadable(() => import("Pages/Home"));
 const IvfAtHome = loadable(() => import("Pages/IvfFromHome"));
 const Footer = loadable(() => import("Components/footer/footer"));
+const MaleInfertility = loadable(() => import("Pages/MaleInfertility"));
 
 export default function App() {
   return (
@@ -33,6 +34,7 @@ export default function App() {
                 path="/contact-us"
                 render={() => (window.location.href = "contact-us.html")}
               />
+              <Route path="/male-infertility" component={MaleInfertility} />
             </Switch>
             <SalesIQ />
             <Footer />

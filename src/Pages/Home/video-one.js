@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Container, Box, Heading } from "theme-ui";
 import loadable from "@loadable/component";
-
 import { Link } from "Components/link";
 import { FaPlay } from "react-icons/fa";
 import videoImg from "assets/images/video.webp";
@@ -47,14 +46,15 @@ export default VideoOne;
 
 const styles = {
   video: {
-    pt: [null, null, null, null, null, 30],
-    textAlign: "center",
+    pt: [7, null, null, 9, null, 10, 11],
+    pb: [9, null, null, 10, 11],
     h3: {
       mb: 8,
       fontSize: [5, null, null, "21px", "36px", "32px", 9],
       letterSpacing: ["-0.5px", null, null, null, null, "-1.5px"],
       fontWeight: "bold",
       lineHeight: [1.6, null, null, 1.25],
+      textAlign: "center",
     },
     p: {
       fontSize: ["15px", null, null, "17px"],

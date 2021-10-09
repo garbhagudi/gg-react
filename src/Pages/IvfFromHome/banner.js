@@ -73,12 +73,12 @@ const styles = {
   },
   image: {
     img: {
-      display: ["none", null, null, "flex"],
+      display: ["block", null, null, "flex"],
       width: "500px",
       mixBlendMode: "darken",
       position: "relative",
       top: ["0", null, null, null, null, "-40px"],
-      maxWidth: ["100%", null, null, null, null, null, "none"],
+      maxWidth: ["100%", null, null, null, null, null, "100%"],
     },
   },
 };

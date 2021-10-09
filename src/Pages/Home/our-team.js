@@ -1,7 +1,7 @@
 /** @jsxRuntime classic **/
 /** @jsx jsx **/
 import { jsx } from "theme-ui";
-import { Container, Grid } from "theme-ui";
+import { Container, Grid, Box } from "theme-ui";
 import loadable from "@loadable/component";
 import Member1 from "assets/images/team/member1.webp";
 import Member2 from "assets/images/team/member2.webp";
@@ -65,7 +65,7 @@ const data = [
 
 export default function TeamSection() {
   return (
-    <section id="team">
+    <Box as="section" id="team" sx={styles.section}>
       <Container>
         <SectionHeader
           sx={styles.header}
@@ -86,11 +86,16 @@ export default function TeamSection() {
           ))}
         </Grid>
       </Container>
-    </section>
+    </Box>
   );
 }
 
 const styles = {
+  section: {
+    backgroundColor: "#FFF",
+    pt: [7, null, null, 9, null, 10, 11],
+    pb: [9, null, null, 10, 11],
+  },
   grid: {
     pb: [9, 9, 9, 12, 12, 9],
     mt: [0, null, -6, null, -4],

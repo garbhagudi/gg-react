@@ -86,7 +86,6 @@ const styles = {
     backgroundColor: rgba("#FFF5ED", 0.5),
     pt: [7, null, null, 9, null, 10, 11],
     pb: [9, null, null, 10, 11],
-    mb: "32px",
   },
   heading: {
     textAlign: "Center",
