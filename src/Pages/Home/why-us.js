@@ -92,7 +92,7 @@ export default WhyUs;
 const styles = {
   section: {
     backgroundColor: rgba("#bbd4ce", 0.3),
-    pt: [11, null, null, 12],
+    pt: [7, null, null, 9],
     pb: [8, null, null, 9, null, 11],
   },
   tabs: {
@@ -121,7 +121,7 @@ const styles = {
       // m: ['0 45px'],
       h4: {
         fontFamily: "body",
-        fontSize: [0, null, null, 17, null, null, 4],
+        fontSize: [2, null, null, 17, null, null, 5],
         fontWeight: 700,
         lineHeight: 1.5,
         textAlign: ["center", null, null, null, "left"],

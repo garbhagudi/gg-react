@@ -93,13 +93,13 @@ export default function TeamSection() {
 const styles = {
   section: {
     backgroundColor: "#FFF",
-    pt: [7, null, null, 9, null, 10, 11],
-    pb: [9, null, null, 10, 11],
+    pt: [5, null, null, 9, null, 10, 8],
+    pb: [0, null, null, 5],
   },
   grid: {
-    pb: [9, 9, 9, 12, 12, 9],
+    pb: [3, 9, 9, 12, 12, 3],
     mt: [0, null, -6, null, -4],
-    gridGap: ["35px 0px", null, 0, null, null, "30px 35px"],
+    gridGap: ["15px 0px", null, 0, null, null, "30px 35px"],
     gridTemplateColumns: [
       "repeat(2,1fr)",
       null,

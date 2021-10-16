@@ -10,6 +10,7 @@ const Home = loadable(() => import("Pages/Home"));
 const IvfAtHome = loadable(() => import("Pages/IvfFromHome"));
 const Footer = loadable(() => import("Components/footer/footer"));
 const MaleInfertility = loadable(() => import("Pages/MaleInfertility"));
+const OnlineConsultation = loadable(() => import("Pages/OnlineConsultation"));
 
 export default function App() {
   return (
@@ -30,11 +31,15 @@ export default function App() {
             <Switch>
               <Route component={Home} path="/" exact />
               <Route component={IvfAtHome} path="/ivf-from-home" exact />
+              <Route path="/male-infertility" component={MaleInfertility} />
+              <Route
+                path="/online-consultation"
+                component={OnlineConsultation}
+              />
               <Route
                 path="/contact-us"
                 render={() => (window.location.href = "contact-us.html")}
               />
-              <Route path="/male-infertility" component={MaleInfertility} />
             </Switch>
             <SalesIQ />
             <Footer />

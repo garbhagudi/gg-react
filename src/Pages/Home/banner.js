@@ -2,7 +2,6 @@
 /** @jsx jsx */
 import { jsx, Box, Container, Button } from "theme-ui";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import { rgba } from "polished";
 import { Link } from "react-router-dom";
 import loadable from "@loadable/component";
 const SectionHeading = loadable(() => import("Components/section-heading"));
@@ -44,7 +43,7 @@ const styles = {
     pb: [8, null, null, 0],
     zIndex: 0,
     ":before": {
-      backgroundColor: rgba("#FFF5ED", 0.5),
+      backgroundColor: "#F9FAFC",
       content: ["none", null, null, `''`],
       position: "absolute",
       left: 0,

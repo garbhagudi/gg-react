@@ -79,10 +79,11 @@ const styles = {
   section: {
     backgroundColor: rgba("#FFF5ED", 0.5),
     pt: [7, null, null, 9, null, 10, 11],
-    pb: [9, null, null, 10, 11],
+    pb: [5, null, null, 10, 11],
   },
   heading: {
     textAlign: "Center",
+    mb: [-20, null, null, 10, 4],
   },
   tabs: {
     flexDirection: ["column-reverse", null, null, null, null, "column"],
