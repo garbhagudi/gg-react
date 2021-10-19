@@ -15,6 +15,8 @@ export default {
     accent: "#609", // a contrast color for emphasizing UI
     dark: "#10132D",
     link: "#4F96FF", // default link color
+    primary2: "#1F3E76", // primary button and link color
+    secondary2: "#25CB9E",
 
     // highlight	a background color for highlighting text
     modes: {
@@ -115,6 +117,10 @@ export default {
   },
   section: {
     banner: {},
+    workflow: {
+      py: [8, null, 9, null, null, 10],
+      backgroundColor: "background_secondary",
+    },
   },
   text: {
     heading: {
@@ -127,6 +133,30 @@ export default {
       fontWeight: 700,
       letterSpacing: "heading",
       lineHeight: [1.4, null, null, null, null, null, 1.57],
+    },
+    heroPrimary: {
+      color: "white",
+      fontSize: [
+        "35px",
+        "35px",
+        "48px",
+        "48px",
+        "48px",
+        "48px",
+        "48px",
+        "48px",
+      ],
+      lineHeight: 1.2,
+      fontWeight: 700,
+      mb: [5, null, null, null, "30px"],
+    },
+    heroSecondary: {
+      color: "white",
+      fontSize: [2, 3, 4, "17px", null, 3, "19px", 4],
+      lineHeight: [2, null, null, null, 2.2],
+      fontWeight: "body",
+      pr: [0, null, null, null, null, "100px", null, "125px"],
+      mb: ["35px", null, null, null, "40px", null, null, 7],
     },
   },
   links: {
@@ -183,6 +213,20 @@ export default {
       transition: "0.3s ease-in-out 0s",
       whiteSpace: "nowrap",
     },
+    defaultBtn: {
+      borderRadius: "45px",
+      fontSize: ["14px", 1, null, null, 2],
+      letterSpacings: ["-0.5px", null, null, null, "-0.15px"],
+      padding: ["11px 20px 10px", null, null, null, "13px 30px"],
+      fontFamily: "body",
+      cursor: "pointer",
+      lineHeight: 1.2,
+      transition: "all 0.25s",
+      fontWeight: 500,
+      "&:focus": {
+        outline: 0,
+      },
+    },
     primary: {
       variant: "buttons.default",
       color: "white",
@@ -217,9 +261,28 @@ export default {
       backgroundColor: "white",
       color: "#020718",
     },
+    whiteButton: {
+      variant: "buttons.defaultBtn",
+      color: "secondary",
+      bg: "white",
+      "&:hover": {
+        boxShadow: "rgba(0, 0, 0, 0.5) 0px 12px 24px -10px",
+      },
+    },
     text: {
       variant: "buttons.default",
       color: "text",
+    },
+    textButton: {
+      variant: "buttons.defaultBtn",
+      backgroundColor: "transparent",
+      color: "white",
+      display: "flex",
+      alignItems: "center",
+      svg: {
+        fontSize: [4, 6],
+        mr: 2,
+      },
     },
   },
   cards: {
