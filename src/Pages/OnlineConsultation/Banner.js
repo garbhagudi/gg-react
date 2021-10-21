@@ -5,7 +5,6 @@ import { jsx } from "theme-ui";
 import { Container, Flex, Box, Heading, Text, Image, Button } from "theme-ui";
 import ModalVideo from "react-modal-video";
 import { FaPlayCircle } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 export default function Banner() {
   const [videoOpen, setVideoOpen] = React.useState(false);
@@ -18,7 +17,7 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Begin your journey of parenthood from the comfort of your Home.
+            Begin your journey towards parenthood from the comfort of your Home.
           </Heading>
           <Text as="p" variant="heroSecondary">
             Easy, Secure & Private... <br /> Connect with our Experts for a
@@ -27,7 +26,13 @@ export default function Banner() {
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Get Started">
-              <Link to="/contact-us">Get Started</Link>
+              <a
+                href="https://consult.bestdocapp.com/home/GARBHAGUDI"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Get Started
+              </a>
             </Button>
             <>
               <ModalVideo

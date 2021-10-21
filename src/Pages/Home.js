@@ -9,6 +9,7 @@ const OtherServices = loadable(() => import("Pages/Home/other-services"));
 const WhyUs = loadable(() => import("Pages/Home/why-us"));
 const SubscribeUs = loadable(() => import("Pages/Home/subscribe-us"));
 const VideoOne = loadable(() => import("Pages/Home/video-one"));
+const Calculators = loadable(() => import("Pages/Home/calculators"));
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Header />
       <Banner />
       <OtherServices />
+      <Calculators />
       <OurTeam />
       <Testimonials />
       <WhyUs />

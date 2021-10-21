@@ -4,7 +4,7 @@ import { IoIosCheckmarkCircle } from "react-icons/io";
 
 const Advantages = () => {
   return (
-    <Box sx={styles.boostAgencies}>
+    <Box sx={styles.boostAgencies} id="adv">
       <Container>
         <Box sx={styles.row}>
           <Flex sx={styles.col}>
@@ -40,10 +40,6 @@ const Advantages = () => {
                 <Text as="li">
                   <IoIosCheckmarkCircle />
                   Security and privacy
-                </Text>
-                <Text as="li">
-                  <IoIosCheckmarkCircle />
-                  No risk of infection
                 </Text>
               </Box>
             </Box>

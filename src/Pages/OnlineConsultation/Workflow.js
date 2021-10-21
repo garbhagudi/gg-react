@@ -25,7 +25,7 @@ const data = [
 
 export default function WorkFlow() {
   return (
-    <section sx={{ variant: "section.workflow" }}>
+    <section sx={{ variant: "section.workflow" }} id="how">
       <Container>
         <SectionHeading title="Let’s see how it works" />
 

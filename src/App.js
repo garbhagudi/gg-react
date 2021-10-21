@@ -40,6 +40,19 @@ export default function App() {
                 path="/contact-us"
                 render={() => (window.location.href = "contact-us.html")}
               />
+              <Route
+                path="/ovulation-calculator"
+                render={() =>
+                  (window.location.href =
+                    "ovulation-prediction-calculator.html")
+                }
+              />
+              <Route
+                path="/fertility-quotient-calculator"
+                render={() =>
+                  (window.location.href = "fertility-quotient-calculator.html")
+                }
+              />
             </Switch>
             <SalesIQ />
             <Footer />

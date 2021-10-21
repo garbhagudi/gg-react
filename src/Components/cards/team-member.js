@@ -12,17 +12,22 @@ export default function TeamCard({
   website,
 }) {
   return (
-    <Box sx={styles.card}>
-      <LazyLoadImage src={src} alt={altText} sx={styles.memberThumb} />
-      <Box sx={styles.infoWrapper}>
-        <Heading className="info__name" sx={styles.infoWrapper.name}>
-          <a href={website}>{title} </a>
-        </Heading>
-        <Text className="info__designation" sx={styles.infoWrapper.designation}>
-          {designation}
-        </Text>
+    <a href={website} target="_blank" rel="noreferrer">
+      <Box sx={styles.card}>
+        <LazyLoadImage src={src} alt={altText} sx={styles.memberThumb} />
+        <Box sx={styles.infoWrapper}>
+          <Heading className="info__name" sx={styles.infoWrapper.name}>
+            {title}
+          </Heading>
+          <Text
+            className="info__designation"
+            sx={styles.infoWrapper.designation}
+          >
+            {designation}
+          </Text>
+        </Box>
       </Box>
-    </Box>
+    </a>
   );
 }
 

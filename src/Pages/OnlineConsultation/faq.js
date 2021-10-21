@@ -48,7 +48,7 @@ const data = [
 
 const Faq = () => {
   return (
-    <section id="features" sx={styles.section}>
+    <section sx={styles.section} id="faq">
       <Container>
         <Grid sx={styles.grid}>
           <Box as="figure" sx={styles.illustration}>
