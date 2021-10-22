@@ -65,7 +65,7 @@ const styles = {
     textAlign: "center",
     mt: [3, null, 4],
     name: {
-      fontSize: [1, 2, 3, null, null, 4],
+      fontSize: [1, 2, 3, null, null, 2],
       fontWeight: "bold",
       lineHeight: [1.25, 1.35],
       transition: "color 0.25s",

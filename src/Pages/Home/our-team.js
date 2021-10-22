@@ -61,6 +61,42 @@ const data = [
     designation: "Fertility Specialist",
     website: "https://garbhagudi.com/dr-priyanka-rani",
   },
+  {
+    id: 7,
+    imgSrc:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1634886295/garbhagudi-ivf/Images%20/anita_qy0dpo.webp",
+    altText: "Dr Anitha A Manoj",
+    title: "Dr Anitha A",
+    designation: "Fertility Specialist",
+    website: "https://garbhagudi.com/dr-anitha-a-manoj/",
+  },
+  {
+    id: 8,
+    imgSrc:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1634886295/garbhagudi-ivf/Images%20/swatishree_r8ze7n.webp",
+    altText: "Dr Swati Shree",
+    title: "Dr Swati Shree",
+    designation: "Fertility Specialist",
+    website: "https://garbhagudi.com/dr-swati-shree/",
+  },
+  {
+    id: 9,
+    imgSrc:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1634886294/garbhagudi-ivf/Images%20/vandana_w2ieei.webp",
+    altText: "Dr Vandana Ramanathan",
+    title: "Dr Vandana R",
+    designation: "Fertility Specialist",
+    website: "https://garbhagudi.com/dr-vandana-ramanathan/",
+  },
+  {
+    id: 10,
+    imgSrc:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1634886295/garbhagudi-ivf/Images%20/srinivas_rbarwv.webp",
+    altText: "Dr Vandana Ramanathan",
+    title: "Dr Srinivas B.V",
+    designation: "Senior Andrologist",
+    website: "https://garbhagudi.com/dr-srinivas-b-v",
+  },
 ];
 
 export default function TeamSection() {
@@ -99,13 +135,14 @@ const styles = {
   grid: {
     pb: [3, 9, 9, 12, 12, 3],
     mt: [0, null, -6, null, -4],
+    mx: "auto",
     gridGap: ["15px 0px", null, 0, null, null, "30px 35px"],
     gridTemplateColumns: [
       "repeat(2,1fr)",
       null,
       "repeat(2,1fr)",
       null,
-      "repeat(3,1fr)",
+      "repeat(5,1fr)",
     ],
     a: {
       textDecoration: "none",

@@ -5,16 +5,16 @@ export default [
     label: "Home",
   },
   {
-    path: "testimonial",
-    label: "Testimonials",
+    path: "why-us",
+    label: "Why Us",
   },
   {
     path: "team",
     label: "Team",
   },
   {
-    path: "why-us",
-    label: "Why Us",
+    path: "testimonial",
+    label: "Testimonials",
   },
   {
     path: "",
