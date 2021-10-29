@@ -8,7 +8,6 @@ import { DrawerContext } from "contexts/drawer/drawer-context";
 import Drawer from "Components/drawer";
 import Logo from "Components/logo";
 import menuItems from "./header.data";
-import close from "assets/images/icons/close.webp";
 
 const DrawerNav = () => {
   const { state, dispatch } = useContext(DrawerContext);
@@ -33,7 +32,10 @@ const DrawerNav = () => {
       toggleHandler={toggleHandler}
       closeButton={
         <button sx={styles.closeButton}>
-          <Image src={close} alt="close" />
+          <Image
+            src="https://res.cloudinary.com/garbhagudi/image/upload/v1633780928/garbhagudi-ivf/Icons/close_ofqjmc.webp"
+            alt="close"
+          />
         </button>
       }
       maskStyle={styles.mask}

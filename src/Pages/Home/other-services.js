@@ -9,21 +9,18 @@ const data = [
   {
     id: 2,
     icon: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780927/garbhagudi-ivf/Icons/service4_jnvjwo.webp",
-    moreLink: "#learn-more",
     title: "Top Fertility Sepcialists",
     description: `Our team consists on the many qualified individuals, with a proven track record in dealing with the most challenging of cases.`,
   },
   {
     id: 3,
     icon: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780927/garbhagudi-ivf/Icons/service7_xwcnxd.webp",
-    moreLink: "#learn-more",
     title: "High Success Rates",
     description: `One of the highest success rates in the industry - Over 66%`,
   },
   {
     id: 6,
     icon: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780927/garbhagudi-ivf/Icons/service3_xt65xs.webp",
-    moreLink: "#learn-more",
     title: "Affordable Treatment",
     description: `Affordable treatments without any compromise on service or quality of service or media.`,
   },

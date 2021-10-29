@@ -1,85 +1,86 @@
-import facebook from "assets/images/icons/facebook.webp";
-import twitter from "assets/images/icons/twitter.webp";
-import youtube from "assets/images/icons/youtube.webp";
-import linkedin from "assets/images/icons/linkedin.webp";
-
-export const menuItems = [
+export const about = [
   {
     id: 2,
     title: "About Us",
     items: [
       {
-        path: "https://garbhagudi.com/about-overview/",
-        label: "About Us",
+        url: "https://garbhagudi.com/about-overview/",
+        label: "About GarbhaGudi",
       },
       {
-        path: "tel:8880000909",
-        label: "Call us",
+        url: "tel:8880000909",
+        label: "Give us a Call",
       },
       {
-        path: "mailto:dreams@garbhagudi.com",
-        label: "Email",
+        url: "mailto:dreams@garbhagudi.com",
+        label: "Write us an Email",
       },
     ],
   },
+];
+export const information = [
   {
     id: 3,
     title: "Our Information",
     items: [
       {
-        path: "#!",
+        to: "/refund-policy",
         label: "Refund Policy ",
       },
       {
-        path: "#!",
+        to: "/privacy-policy",
         label: "Privacy Policy",
       },
       {
-        path: "#!",
+        to: "/terms-and-conditions",
         label: "Terms & Conditions",
       },
     ],
   },
+];
+export const pages = [
   {
     id: 4,
     title: "Other Pages",
     items: [
       {
-        path: "#!",
+        to: "/ivf-from-home",
         label: "IVF from Home ",
       },
       {
-        path: "#!",
+        to: "/male-infertility",
         label: "Male Infertility",
       },
       {
-        path: "#!",
+        to: "/online-consultation",
         label: "Online Consultation",
       },
     ],
   },
+];
+export const connect = [
   {
     id: 5,
     title: "Connect",
     items: [
       {
-        path: "https://www.facebook.com/garbhagudiIVF",
-        icon: facebook,
+        url: "https://www.facebook.com/garbhagudiIVF",
+        icon: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780928/garbhagudi-ivf/Icons/facebook_cshjpf.webp",
         label: "Facebook",
       },
       {
-        path: "https://twitter.com/garbhagudiivf",
-        icon: twitter,
+        url: "https://twitter.com/garbhagudiivf",
+        icon: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780927/garbhagudi-ivf/Icons/twitter_qdedgu.webp",
         label: "Twitter",
       },
       {
-        path: "https://www.youtube.com/c/GarbhaGudiIVFCentre/videos",
-        icon: youtube,
+        url: "https://www.youtube.com/c/GarbhaGudiIVFCentre/videos",
+        icon: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780927/garbhagudi-ivf/Icons/youtube_n427fa.webp",
         label: "Youtube",
       },
       {
-        path: "https://www.linkedin.com/company/garbagudi",
-        icon: linkedin,
+        url: "https://www.linkedin.com/company/garbagudi",
+        icon: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780928/garbhagudi-ivf/Icons/linkedin_lhir4i.webp",
         label: "Linkedin",
       },
     ],

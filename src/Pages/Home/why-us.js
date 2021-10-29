@@ -4,8 +4,8 @@ import { jsx, Box, Container, Heading, Text } from "theme-ui";
 import Tabs, { TabPane } from "rc-tabs/";
 import { RiCheckboxCircleFill } from "react-icons/ri";
 import { rgba } from "polished";
-import { LearnMore } from "Components/link";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Link } from "react-router-dom";
 
 const data = [
   {
@@ -13,7 +13,7 @@ const data = [
     tabTitle: "Value Added Services",
     title: `Concerned about stepping out of your home during this Pandemic ?`,
     description: `Our value added service was started specially for patients seeking infertility treatment during the ongoing pandemic. The idea is to help you start IVF treatment right from the safety of your home and minimize travel risks.`,
-    moreLink: "#explore-more",
+    moreLink: "/ivf-from-home",
     image:
       "https://res.cloudinary.com/garbhagudi/image/upload/v1633780583/garbhagudi-ivf/Images%20/ivffromhome_evpbae.webp",
     list: [
@@ -29,7 +29,7 @@ const data = [
     tabTitle: "Treatment Options",
     title: `You are not alone in fight against Infertility`,
     description: `Garbhagudi provides an in-depth analysis of infertility and come up with a tailored treatment protocol since every problem is distinct in essence.`,
-    moreLink: "#explore-more",
+    moreLink: "/online-consultation",
     image:
       "https://res.cloudinary.com/garbhagudi/image/upload/v1633780860/garbhagudi-ivf/Images%20/treatment_wykcf3.webp",
     list: [
@@ -73,7 +73,7 @@ const WhyUs = () => {
                   ))}
                 </Box>
                 <Box sx={styles.learnMore}>
-                  <LearnMore path={item.moreLink} label="Explore more" />
+                  <Link to={item.moreLink}>Explore more</Link>
                 </Box>
               </Box>
               <Box sx={styles.illustration}>
@@ -171,6 +171,7 @@ const styles = {
     textAlign: ["center", null, null, "left"],
     a: {
       fontSize: [null, null, null, 1, 2],
+      color: "link",
     },
   },
   illustration: {

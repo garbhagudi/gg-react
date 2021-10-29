@@ -5,6 +5,15 @@ import "app.css";
 import "react-modal-video/css/modal-video.min.css";
 import "rc-drawer/assets/index.css";
 import loadable from "@loadable/component";
+const RefundPolicy = loadable(() =>
+  import("Pages/technicalStuff/RefundPolicy")
+);
+const PrivacyPolicy = loadable(() =>
+  import("Pages/technicalStuff/PrivacyPolicy")
+);
+const TermsConditions = loadable(() =>
+  import("Pages/technicalStuff/TermsConditions")
+);
 const SalesIQ = loadable(() => import("Components/SalesIQ"));
 const Home = loadable(() => import("Pages/Home"));
 const IvfAtHome = loadable(() => import("Pages/IvfFromHome"));
@@ -36,6 +45,9 @@ export default function App() {
                 path="/online-consultation"
                 component={OnlineConsultation}
               />
+              <Route path="/privacy-policy" component={PrivacyPolicy} />
+              <Route path="/terms-and-conditions" component={TermsConditions} />
+              <Route path="/refund-policy" component={RefundPolicy} />
               <Route
                 path="/contact-us"
                 render={() => (window.location.href = "contact-us.html")}

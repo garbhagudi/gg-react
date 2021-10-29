@@ -1,6 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Box, Container, Grid, Image } from "theme-ui";
+import { jsx, Box, Container, Grid, Image, Text } from "theme-ui";
 import SectionHeading from "Components/section-heading";
 import Accordion from "Components/accordion/accordion";
 
@@ -40,7 +40,7 @@ const data = [
       <div>
         While this service is only available during the working hours of the
         hospital, some exceptions can be made on emergency cases, severity of
-        which will be defined on a case bby case basis
+        which will be defined on a case by case basis
       </div>
     ),
   },
@@ -61,8 +61,13 @@ const Faq = () => {
             <SectionHeading
               sx={styles.heading}
               title="Frequently Asked Questions"
-              description="Check out out FAQ section and feel free to contact us at +918880000909 or drop an E-mail at dreams@garbhagudi.com and we will get back to you as soon as possible"
             />
+            <Text as="p">
+              Check out out FAQ section and feel free to contact us at{" "}
+              <a href="tel:+918880000909">+918880000909</a> or drop an E-mail at{" "}
+              <a href="mailto:dreams@garbhagudi.com">dreams@garbhagudi.com</a>{" "}
+              and we will get back to you as soon as possible
+            </Text>
             <Box sx={styles.accordionGroup}>
               <Accordion items={data} />
             </Box>
@@ -91,6 +96,10 @@ const styles = {
       "1fr 530px",
       "1fr 550px",
     ],
+    p: {
+      mt: "-40px",
+      mb: "10px",
+    },
   },
   heading: {
     textAlign: ["left", null, null, "center", "left"],

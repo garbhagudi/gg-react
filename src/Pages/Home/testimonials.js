@@ -4,7 +4,6 @@ import { jsx, Box, Container, Image, Text } from "theme-ui";
 import Tabs, { TabPane } from "rc-tabs";
 import { rgba } from "polished";
 import SectionHeading from "Components/section-heading";
-import quote from "assets/images/icons/quote.webp";
 const data = [
   {
     id: 1,
@@ -127,7 +126,7 @@ const styles = {
         pt: ["12px", null, null, "17px", "13px"],
         pl: [35, 35, 35, 10, 11],
         ":before": {
-          background: `url(${quote}) no-repeat`,
+          background: `url(https://res.cloudinary.com/garbhagudi/image/upload/v1633780928/garbhagudi-ivf/Icons/quote_lhrts2.webp) no-repeat`,
           content: `''`,
           position: "absolute",
           width: 128,

@@ -1,11 +1,14 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Box, Text, Container } from 'theme-ui';
-import Logo from 'Components/logo';
-import { Link } from 'Components/link';
-import Widget from './widget';
-import { menuItems } from './footer.data';
-import { rgba } from 'polished';
+import { jsx, Box, Text, Container } from "theme-ui";
+import Logo from "Components/logo";
+import { Link } from "react-router-dom";
+import { WidgetAbout, WidgetInfo, WidgetPages, WidgetConnect } from "./widget";
+import { about } from "./footer.data";
+import { information } from "./footer.data";
+import { pages } from "./footer.data";
+import { connect } from "./footer.data";
+import { rgba } from "polished";
 
 export default function Footer() {
   return (
@@ -17,16 +20,25 @@ export default function Footer() {
               <Logo />
             </Box>
             <Box sx={styles.terms}>
-              <Link path="#!">Terms of use</Link>
+              <Link to="/terms-and-conditions">Terms of use</Link>
               <Text as="span">|</Text>
-              <Link path="#!">Privacy</Link>
+              <Link to="/privacy-policy">Privacy</Link>
             </Box>
             <Text as="p" sx={styles.copyright}>
-              &copy; GarbhaGudi IVF Center - {new Date().getFullYear()}  
+              &copy; GarbhaGudi IVF Center - {new Date().getFullYear()}
             </Text>
           </Box>
-          {menuItems.map(({ id, title, items }) => (
-            <Widget key={id} title={title} items={items} />
+          {about.map(({ id, title, items }) => (
+            <WidgetAbout key={id} title={title} items={items} />
+          ))}
+          {information.map(({ id, title, items }) => (
+            <WidgetInfo key={id} title={title} items={items} />
+          ))}
+          {pages.map(({ id, title, items }) => (
+            <WidgetPages key={id} title={title} items={items} />
+          ))}
+          {connect.map(({ id, title, items }) => (
+            <WidgetConnect key={id} title={title} items={items} />
           ))}
         </Box>
       </Container>
@@ -40,63 +52,63 @@ const styles = {
     pb: [8],
   },
   footerTopInner: {
-    gap: [30, null, 50, '20px 50px', 17, 50],
-    display: ['grid'],
+    gap: [30, null, 50, "20px 50px", 17, 50],
+    display: ["grid"],
     gridTemplateColumns: [
-      'repeat(2, 1fr)',
+      "repeat(2, 1fr)",
       null,
       null,
-      'repeat(4, 1fr)',
-      'repeat(5, 1fr)',
+      "repeat(4, 1fr)",
+      "repeat(5, 1fr)",
     ],
   },
   footerInner: {
     borderTop: `1px solid #D9E0E7`,
-    display: ['block', null, 'flex'],
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    padding: '35px 0 40px',
+    display: ["block", null, "flex"],
+    alignItems: "center",
+    justifyContent: "space-between",
+    padding: "35px 0 40px",
   },
   about: {
-    display: [null, null, null, 'grid', 'block'],
-    gridTemplateColumns: '205px 1fr 1fr',
-    alignItems: ['center'],
-    gridRow: ['3/4', null, '1/1', '3/4', 'unset'],
-    gridColumn: ['1/3', null, '1/2', '1/5', 'unset'],
+    display: [null, null, null, "grid", "block"],
+    gridTemplateColumns: "205px 1fr 1fr",
+    alignItems: ["center"],
+    gridRow: ["3/4", null, "1/1", "3/4", "unset"],
+    gridColumn: ["1/3", null, "1/2", "1/5", "unset"],
   },
   logo: {
-    display: ['flex'],
-    justifyContent: ['center', null, null, 'unset'],
-    gridColumn: '1/2',
+    display: ["flex"],
+    justifyContent: ["center", null, null, "unset"],
+    gridColumn: "1/2",
   },
   terms: {
-    display: ['flex'],
-    gridColumn: '3/4',
-    alignItems: ['center', null, null, null, 'flex-start', 'center'],
-    flexDirection: ['row', null, null, null, 'column', 'row'],
+    display: ["flex"],
+    gridColumn: "3/4",
+    alignItems: ["center", null, null, null, "flex-start", "center"],
+    flexDirection: ["row", null, null, null, "column", "row"],
     justifyContent: [
-      'center',
+      "center",
       null,
-      'flex-start',
-      'center',
+      "flex-start",
+      "center",
       null,
-      'flex-start',
+      "flex-start",
     ],
     mt: [4, null, null, 0, 4],
     a: {
-      color: 'heading',
+      color: "heading",
     },
     span: {
-      display: ['inline-flex', null, null, null, 'none', 'inline-flex'],
-      m: ['0 10px'],
+      display: ["inline-flex", null, null, null, "none", "inline-flex"],
+      m: ["0 10px"],
     },
   },
   copyright: {
-    color: rgba('#0F2137', 0.6),
-    fontSize: ['14px'],
+    color: rgba("#0F2137", 0.6),
+    fontSize: ["14px"],
     mt: [3, null, null, -31, 3],
-    mr: [null, null, null, 'auto', 'unset'],
-    gridColumn: '2/3',
-    textAlign: ['center', null, 'left', 'center', 'left'],
+    mr: [null, null, null, "auto", "unset"],
+    gridColumn: "2/3",
+    textAlign: ["center", null, "left", "center", "left"],
   },
 };
