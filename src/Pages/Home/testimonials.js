@@ -82,7 +82,7 @@ const styles = {
   },
   heading: {
     textAlign: "Center",
-    mb: [-20, null, null, 10, 4],
+    mb: [null, null, null, 10, 4],
   },
   tabs: {
     flexDirection: ["column-reverse", null, null, null, null, "column"],
