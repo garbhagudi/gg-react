@@ -9,7 +9,7 @@ const data = [
   {
     id: 1,
     title: "Select Location ",
-    text: "Choose the location and the Specialist best suitable for you",
+    text: "Choose the location and the specialist best suitable for you",
   },
   {
     id: 2,

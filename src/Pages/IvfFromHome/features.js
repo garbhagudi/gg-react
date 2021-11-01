@@ -29,7 +29,7 @@ const data = [
   {
     id: 4,
     color: "#28DCB2",
-    value: "& 70%",
+    value: "70%",
     title: "Reduction in Hospital Visits",
   },
 ];

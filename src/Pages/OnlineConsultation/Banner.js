@@ -1,17 +1,16 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import React from "react";
 import { jsx } from "theme-ui";
 import { Container, Flex, Box, Heading, Text, Image, Button } from "theme-ui";
-import ModalVideo from "react-modal-video";
-import { FaPlayCircle } from "react-icons/fa";
+// import ModalVideo from "react-modal-video";
+// import { FaPlayCircle } from "react-icons/fa";
 
 export default function Banner() {
-  const [videoOpen, setVideoOpen] = React.useState(false);
-  const handleClick = (e) => {
-    e.preventDefault();
-    setVideoOpen(true);
-  };
+  // const [videoOpen, setVideoOpen] = React.useState(false);
+  // const handleClick = (e) => {
+  //   e.preventDefault();
+  //   setVideoOpen(true);
+  // };
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
@@ -34,7 +33,7 @@ export default function Banner() {
                 Get Started
               </a>
             </Button>
-            <>
+            {/* <>
               <ModalVideo
                 channel="youtube"
                 isOpen={videoOpen}
@@ -48,7 +47,7 @@ export default function Banner() {
               >
                 <FaPlayCircle /> Watch Video
               </Button>
-            </>
+            </> */}
           </Flex>
         </Box>
 

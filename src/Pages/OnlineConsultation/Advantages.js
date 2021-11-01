@@ -12,7 +12,7 @@ const Advantages = () => {
               <Box sx={styles.titleBox}>
                 <Heading as="h3">
                   Skip the travel! <br />
-                  Take Online Doctor Consultation
+                  Opt for an online consultation
                 </Heading>
                 <Text as="p">Benefits of Online Consultation</Text>
               </Box>

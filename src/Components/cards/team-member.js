@@ -3,16 +3,11 @@
 import { jsx } from "theme-ui";
 import { Text, Heading, Box } from "theme-ui";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Link } from "react-router-dom";
 
-export default function TeamCard({
-  src,
-  altText,
-  title,
-  designation,
-  website,
-}) {
+export default function TeamCard({ src, altText, title, designation }) {
   return (
-    <a href={website} target="_blank" rel="noreferrer">
+    <Link to="/contact-us">
       <Box sx={styles.card}>
         <LazyLoadImage src={src} alt={altText} sx={styles.memberThumb} />
         <Box sx={styles.infoWrapper}>
@@ -27,7 +22,7 @@ export default function TeamCard({
           </Text>
         </Box>
       </Box>
-    </a>
+    </Link>
   );
 }
 
