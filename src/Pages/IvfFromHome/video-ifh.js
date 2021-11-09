@@ -18,7 +18,7 @@ const VideoTwo = () => {
         <Heading as="h3">IVF & IUI From Home ? Is it really Possible?</Heading>
         <Box sx={styles.videoBox}>
           <Image
-            src="https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_720,o_53,w_1280/v1633779918/garbhagudi-ivf/Banners/ivffromhome-thumb_dtliyc.webp"
+            src="https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_720,w_1280/v1633779918/garbhagudi-ivf/Banners/ivffromhome-thumb_dtliyc.webp"
             alt="testimonial video"
           />
           <Link

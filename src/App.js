@@ -20,6 +20,8 @@ const IvfAtHome = loadable(() => import("Pages/IvfFromHome"));
 const Footer = loadable(() => import("Components/footer/footer"));
 const MaleInfertility = loadable(() => import("Pages/MaleInfertility"));
 const OnlineConsultation = loadable(() => import("Pages/OnlineConsultation"));
+const ThankYou = loadable(() => import("Pages/ThankYou"));
+const Form = loadable(() => import("Pages/Form"));
 
 export default function App() {
   return (
@@ -48,6 +50,8 @@ export default function App() {
               <Route path="/privacy-policy" component={PrivacyPolicy} />
               <Route path="/terms-and-conditions" component={TermsConditions} />
               <Route path="/refund-policy" component={RefundPolicy} />
+              <Route path="/thank-you" component={ThankYou} />
+              <Route path="/contact" component={Form} />
               <Route
                 path="/contact-us"
                 render={() => (window.location.href = "contact-us.html")}

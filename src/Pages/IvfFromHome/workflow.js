@@ -21,7 +21,7 @@ const workflowData = [
   },
   {
     id: 4,
-    title: "Treatment Planning",
+    title: "Planning & Treatment",
     text: "Our specialist will plan your Treatment and you'll only be asked to vist the Hospital for scans and actual procedures",
   },
 ];
@@ -110,10 +110,12 @@ const styles = {
       },
       "&:nth-of-type(2n-1)::before": {
         backgroundImage: `url("https://res.cloudinary.com/garbhagudi/image/upload/v1633781759/garbhagudi-ivf/Icons/arrow-odd_tk9ujl.webp")`,
+        ml: "25px",
       },
       "&:nth-of-type(2n)::before": {
         backgroundImage: `url("https://res.cloudinary.com/garbhagudi/image/upload/v1633781759/garbhagudi-ivf/Icons/arrow-even_b83vd5.webp")`,
         top: 17,
+        ml: "25px",
       },
       "&:last-child::before": {
         display: "none",

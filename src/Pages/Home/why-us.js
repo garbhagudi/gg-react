@@ -18,7 +18,7 @@ const data = [
       "https://res.cloudinary.com/garbhagudi/image/upload/v1633780583/garbhagudi-ivf/Images%20/ivffromhome_evpbae.webp",
     list: [
       "IVF from Home",
-      "GarbhaGruha ",
+      "GarbhaGriha ",
       "Zero Cost EMI",
       "Paripoorna",
       "and more",
