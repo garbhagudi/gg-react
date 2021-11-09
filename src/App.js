@@ -65,6 +65,10 @@ export default function App() {
                   (window.location.href = "fertility-quotient-calculator.html")
                 }
               />
+              <Route
+                path="/thank-you"
+                render={() => (window.location.href = "thank-you.html")}
+              />
             </Switch>
             <SalesIQ />
             <Footer />
