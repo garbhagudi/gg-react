@@ -20,6 +20,7 @@ const IvfAtHome = loadable(() => import("Pages/IvfFromHome"));
 const Footer = loadable(() => import("Components/footer/footer"));
 const MaleInfertility = loadable(() => import("Pages/MaleInfertility"));
 const OnlineConsultation = loadable(() => import("Pages/OnlineConsultation"));
+const PageNotFound = loadable(() => import("Pages/404.js"));
 
 export default function App() {
   return (
@@ -48,6 +49,7 @@ export default function App() {
               <Route path="/privacy-policy" component={PrivacyPolicy} />
               <Route path="/terms-and-conditions" component={TermsConditions} />
               <Route path="/refund-policy" component={RefundPolicy} />
+
               <Route
                 path="/contact-us"
                 render={() => (window.location.href = "contact-us.html")}
@@ -69,6 +71,7 @@ export default function App() {
                 path="/thank-you"
                 render={() => (window.location.href = "thank-you.html")}
               />
+              <Route path="*" component={PageNotFound} />
             </Switch>
             <SalesIQ />
             <Footer />

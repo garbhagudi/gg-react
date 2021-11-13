@@ -1,6 +1,6 @@
 import React from "react";
 import loadable from "@loadable/component";
-import MetaTags from "react-meta-tags";
+import Helmet from "react-helmet";
 const Header = loadable(() => import("Components/header/HeaderOc/header"));
 const Banner = loadable(() => import("Pages/OnlineConsultation/Banner"));
 const Advantages = loadable(() =>
@@ -13,7 +13,7 @@ const SubscribeUs = loadable(() => import("Pages/Home/subscribe-us"));
 const OnlineConsultation = () => {
   return (
     <div>
-      <MetaTags>
+      <Helmet>
         <title>Online Consultation - GarbhaGudi</title>
         <meta
           name="description"
@@ -43,7 +43,7 @@ const OnlineConsultation = () => {
           content=" https://res.cloudinary.com/garbhagudi/image/upload/v1633780493/garbhagudi-ivf/Banners/maleInf_umubsg.webp"
         />
         <meta name="twitter:card" content="summary_large_image"></meta>
-      </MetaTags>
+      </Helmet>
       <Header />
       <Banner />
       <Workflow />

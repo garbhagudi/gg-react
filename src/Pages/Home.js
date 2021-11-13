@@ -1,6 +1,6 @@
 import React from "react";
 import loadable from "@loadable/component";
-import MetaTags from "react-meta-tags";
+import Helmet from "react-helmet";
 const Header = loadable(() => import("Components/header/HeaderHome/header"));
 const Banner = loadable(() => import("Pages/Home/banner"));
 const Testimonials = loadable(() => import("Pages/Home/testimonials"));
@@ -14,7 +14,7 @@ const Calculators = loadable(() => import("Pages/Home/calculators"));
 const Home = () => {
   return (
     <div>
-      <MetaTags>
+      <Helmet>
         <title>GarbhaGudi IVF Center - Home</title>
         <meta
           name="description"
@@ -37,7 +37,7 @@ const Home = () => {
           content=" https://res.cloudinary.com/garbhagudi/image/upload/v1633779918/garbhagudi-ivf/Banners/banner-illustration_ywl2xw.webp"
         />
         <meta name="twitter:card" content="summary_large_image"></meta>
-      </MetaTags>
+      </Helmet>
       <Header />
       <Banner />
       <OtherServices />

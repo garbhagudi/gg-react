@@ -1,6 +1,6 @@
 import React from "react";
 import loadable from "@loadable/component";
-import MetaTags from "react-meta-tags";
+import Helmet from "react-helmet";
 const IfhHeader = loadable(() =>
   import("Components/header/HeaderIVFHome/header")
 );
@@ -14,7 +14,7 @@ const VideoTwo = loadable(() => import("Pages/IvfFromHome/video-ifh"));
 const IvfFromHome = () => {
   return (
     <div>
-      <MetaTags>
+      <Helmet>
         <title>IVF From Home - GarbhaGudi</title>
         <meta
           name="description"
@@ -44,7 +44,7 @@ const IvfFromHome = () => {
           content=" https://res.cloudinary.com/garbhagudi/image/upload/v1633779919/garbhagudi-ivf/Banners/ivffromhome_tdjvoq.webp"
         />
         <meta name="twitter:card" content="summary_large_image"></meta>
-      </MetaTags>
+      </Helmet>
       <IfhHeader />
       <Banner />
       <VideoTwo />

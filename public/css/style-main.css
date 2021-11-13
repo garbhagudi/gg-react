@@ -17,11 +17,7 @@
   font-size: 20px;
   text-shadow: 2px 2px 3px #9636a5;
 }
-hr {
-  border-top: solid 2px #e97195;
-}
-
-.content-1 {
+z .content-1 {
   font-size: 17px;
 }
 
@@ -123,6 +119,7 @@ hr {
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
+  outline: none;
 }
 
 #score-op {
