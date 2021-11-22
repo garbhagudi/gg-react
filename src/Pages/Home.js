@@ -15,19 +15,19 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>GarbhaGudi IVF Center - Home</title>
+        <title>GarbhaGudi IVF Centre - Home</title>
         <meta
           name="description"
           content="Your next step in infertility treatment"
         />
-        <meta property="og:title" content="GarbhaGudi IVF Center" />
+        <meta property="og:title" content="GarbhaGudi IVF Centre" />
         <meta property="og:type" content="webpage" />
         <meta property="og:url" content="https://garbhagudi-ivf.com" />
         <meta
           property="og:image"
           content="https://res.cloudinary.com/garbhagudi/image/upload/v1633779918/garbhagudi-ivf/Banners/banner-illustration_ywl2xw.webp"
         />
-        <meta name="twitter:title" content="Garbhagudi IVF Center" />
+        <meta name="twitter:title" content="Garbhagudi IVF Centre" />
         <meta
           name="twitter:description"
           content=" India's Best IVF Infrastructure"

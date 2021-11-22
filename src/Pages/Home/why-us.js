@@ -21,6 +21,7 @@ const data = [
       "GarbhaGriha ",
       "Zero Cost EMI",
       "Paripoorna",
+      "GG Care",
       "and more",
     ],
   },

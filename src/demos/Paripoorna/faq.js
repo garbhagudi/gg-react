@@ -6,22 +6,21 @@ const SectionHeading = loadable(() => import("Components/section-heading"));
 const Accordion = loadable(() => import("Components/accordion/accordion"));
 const faqs = [
   {
-    title:
-      "In this Covid -19 situation, how do you ensure that you will send a healthy person to our place?",
+    title: "How to register for PARIPOORNA offer?",
     contents: (
       <div>
-        We do medical examination of the person before sending them by checking
-        for temperature & symptoms of Covid-19 and only then send them.They will
-        also wear a mask and use santizer before entring your home. All our
-        staff is fully vaccinated.
+        Visit any of our canter’s during PARIPOORNA benefit plan registration,
+        duly fill your form and submit to concerned person.
       </div>
     ),
   },
   {
-    title: "Our area comes under red zone, so how does it work?",
+    title: "Who will be eligible for the PARIPOORNA offer?",
     contents: (
       <div>
-        We can't send our staff to red zone area as per Government rules.
+        This plan is specially designed for the couple need financial support
+        for their infertility treatment. However, a couple will be eligible if
+        the GarbhaGnan foundation committee approved your application.
       </div>
     ),
   },
@@ -98,7 +97,7 @@ export default function Faq() {
     >
       <Container>
         <SectionHeading
-          title="Have more questions? "
+          title="Do you have any quesiton"
           description="GG Care is here to help. Please contact us on +91 8880000909 and one of our associates will get in touch with you."
         />
         <Box

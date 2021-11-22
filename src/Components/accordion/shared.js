@@ -95,7 +95,7 @@ export const AccordionItem = ({ isOpen, children, ...rest }) => (
       padding: 0,
       overflow: "hidden",
       "@media(max-widht: 375px)": {
-        paddingBottom: 15,
+        paddingBottom: 8,
       },
     }}
     {...rest}
@@ -104,10 +104,10 @@ export const AccordionItem = ({ isOpen, children, ...rest }) => (
   </div>
 );
 
-export const preventClose = (state, changes) =>
-  changes.type === "closing" && state.openIndexes.length < 2
-    ? { ...changes, openIndexes: state.openIndexes }
-    : changes;
+// export const preventClose = (state, changes) =>
+//   changes.type === "closing" && state.openIndexes.length < 2
+//     ? { ...changes, openIndexes: state.openIndexes }
+//     : changes;
 
 export const single = (state, changes) =>
   changes.type === "opening"

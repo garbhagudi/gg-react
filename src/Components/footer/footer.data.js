@@ -3,10 +3,6 @@ export const about = [
     id: 2,
     title: "About Us",
     items: [
-      // {
-      //   url: "https://garbhagudi.com/about-overview/",
-      //   label: "About GarbhaGudi",
-      // },
       {
         url: "tel:8880000909",
         label: "Give us a Call",
@@ -50,6 +46,10 @@ export const pages = [
       {
         to: "/male-infertility",
         label: "Male Infertility",
+      },
+      {
+        to: "/female-infertility",
+        label: "Female Infertility",
       },
       {
         to: "/online-consultation",

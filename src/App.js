@@ -7,6 +7,9 @@ import "rc-drawer/assets/index.css";
 import loadable from "@loadable/component";
 import TagManager from "react-gtm-module";
 import ReactGA from "react-ga";
+// import Alerts from "Components/Alert";
+const FemaleInfertility = loadable(() => import("Pages/FemaleInfertility"));
+// const Paripoorna = loadable(() => import("demos/Paripoorna.js"));
 const RefundPolicy = loadable(() =>
   import("Pages/technicalStuff/RefundPolicy")
 );
@@ -31,6 +34,7 @@ const tagManagerArgs = {
 TagManager.initialize(tagManagerArgs);
 
 ReactGA.initialize("UA-155539487-1");
+ReactGA.set({ page: window.location.pathname });
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 export default function App() {
@@ -49,6 +53,7 @@ export default function App() {
       >
         <BrowserRouter>
           <ThemeProvider theme={theme}>
+            {/* <Alerts /> */}
             <Switch>
               <Route component={Home} path="/" exact />
               <Route component={IvfAtHome} path="/ivf-from-home" exact />
@@ -60,6 +65,8 @@ export default function App() {
               <Route path="/privacy-policy" component={PrivacyPolicy} />
               <Route path="/terms-and-conditions" component={TermsConditions} />
               <Route path="/refund-policy" component={RefundPolicy} />
+              <Route path="/female-infertility" component={FemaleInfertility} />
+              {/* <Route path="/demo/paripoorna" component={Paripoorna} /> */}
 
               <Route
                 path="/contact-us"
