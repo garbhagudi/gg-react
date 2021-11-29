@@ -1,6 +1,5 @@
 import React from "react";
 import { Alert, Box } from "theme-ui";
-import Count from "Components/countdown/Clock";
 import { Link } from "react-router-dom";
 
 const Alerts = () => {
@@ -8,13 +7,11 @@ const Alerts = () => {
     <div>
       <Alert sx={styles.wrapper} role="alert">
         <Box sx={styles.alert}>
-          Paripoorna offer is valid till January 1st 2022,
+          PARIPOORNA - avail upto* 50% on IVF Treatments. <br />
+          <Link to="/contact-us">Register Now </Link> &emsp; | &emsp;
+          <Link to="/paripoorna">Know More</Link>
           <br />
-          <span>
-            <Count />
-          </span>
         </Box>
-        <Link to="/demo/paripoorna">Know More {">"}</Link>
       </Alert>
     </div>
   );
@@ -24,7 +21,7 @@ export default Alerts;
 
 const styles = {
   wrapper: {
-    backgroundColor: "secondary",
+    backgroundColor: "#a87b9e",
     borderRadius: 0,
     textAlign: "center",
     a: {

@@ -9,7 +9,10 @@ const Benefits = () => {
       <Container>
         <Box sx={styles.grid}>
           <Flex sx={styles.illustration}>
-            {/* <Image src={app} alt="privacy" /> */}
+            <Img
+              src="https://res.cloudinary.com/garbhagudi/image/upload/v1638186087/garbhagudi-ivf/Images%20/english_creativbe_bvlhzr.webp"
+              alt="benefits"
+            />
           </Flex>
           <Box>
             <SectionHeading
@@ -28,10 +31,10 @@ const Benefits = () => {
               limited number of couples and is based on their eligibility.{" "}
               <br /> <br />
               Due to the financial challenges, a couple dreaming of having a
-              baby through IVF gets shattered. Hence, GarbhaGudi IVF Centre
-              leveraging a special discount on IVF procedure, medicines and on
-              patient stay. This unique offer is brought to you by the
-              GarbhaGnan Foundation, a unit of GarbhaGudi. <br />
+              baby through IVF gets shattered. Hence, GarbhaGudi IVF Centre is
+              leveraging a special discount on IVF procedures. This unique offer
+              is brought to you by the GarbhaGnan Foundation, a unit of
+              GarbhaGudi. <br />
               <br />
               Under Paripoorna program, waiver on IVF treatment will be on the
               eligibility of the couples. A couple who needs support can apply
@@ -43,10 +46,6 @@ const Benefits = () => {
               treatment to couples who are unable to bear the treatment costs.
               It is termed “Paripoorna”.
             </Text>
-            {/* <Flex sx={styles.buttonGroup}>
-              <Img src={appStore} alt="appStore" />
-              <Img src={googlePlay} sx={{ ml: 3 }} alt="googlePlay" />
-            </Flex> */}
           </Box>
         </Box>
       </Container>
@@ -58,20 +57,23 @@ export default Benefits;
 
 const styles = {
   section: {
-    pt: [8, null, null, null, 10, 14],
+    pt: [8, null, null, null, 10, 8],
     pb: [6, null, null, 8, 10, 11],
   },
   grid: {
     display: ["flex", null, null, "grid"],
     flexDirection: ["column-reverse", null, null, "unset"],
-    alignItems: "center",
+    alignItems: ["start", null, null, "start", "start", "center"],
     gap: [null, null, null, 6, null, 14],
     gridTemplateColumns: ["1fr", null, null, "repeat(2, 1fr)", "445px 500px"],
-    justifyContent: "center",
+    justifyContent: "start",
   },
   illustration: {
     alignItems: "center",
-    mt: [8, null, null, 0],
+    mt: [8, null, null, 8, 6, 0],
+    img: {
+      transform: ["scale(1.1)", null, null, null, null, "scale(1.3)"],
+    },
   },
   heading: {
     textAlign: ["center", null, null, "left"],

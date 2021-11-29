@@ -82,7 +82,7 @@ const styles = {
   navList: {
     display: ["flex"],
     listStyle: "none",
-    // marginLeft: 'auto',
+    // marginLeft: "auto",
     flexGrow: 1,
     p: 0,
     "li:last-child": {

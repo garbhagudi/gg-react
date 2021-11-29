@@ -91,6 +91,31 @@ const TermsConditions = () => {
             <br />
           </Text>
         </Container>
+        <Container sx={styles.container} style={{ marginTop: "45px" }}>
+          <Heading as="h4">Paripoorna</Heading>
+          <Text as="p">
+            GarbhaGnan Foundation is one of the foremost foundations in the
+            country that offers specialized and the latest health care for
+            women. With growing rates of infertility across the globe due to
+            varying diet, lesser physical exertion and so on, GarbhaGnan
+            Foundation remains steadfast in helping women get unparalleled care
+            from experienced specialists. <br />
+            <br /> In its pursuit of rendering service to couple looking for
+            progeny GarbhaGnan Foundation has decided to offer “PARIPOORNA 2021”
+            where in the discount offered by GarbhaGudi IVF Centre is being
+            borne by GarbhaGnan Foundation as a part of its CSR activity.
+            Deserving couple are selected by a committee put in place by
+            GarbhaGnan Foundation. The selection process and merits are defined
+            by GarbhaGnan Foundation and cannot be contested by any couple.{" "}
+            <br />
+            <br />
+            Committee’s decision in awarding the offer is final. Offer is not
+            transferable. Strictly, the offer ends on the mentioned date, unless
+            otherwise extended by the Committee. Payment to be done fully by the
+            suggested date. All the terms and conditions are subject to change
+            without notice which is at the sole
+          </Text>
+        </Container>
       </Box>
     </>
   );

@@ -77,12 +77,13 @@ const styles = {
     alignItems: "center",
     flexGrow: 1,
     color: "text",
-    // justifyContent: 'center',
+    justifyContent: "center",
   },
   navList: {
     display: ["flex"],
     listStyle: "none",
     flexGrow: 1,
+    fontSize: [3, null, null, null, 13.2, 13.2, 3],
     p: 0,
     "li:last-child": {
       ml: ["auto"],

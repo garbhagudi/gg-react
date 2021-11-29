@@ -7,9 +7,10 @@ import "rc-drawer/assets/index.css";
 import loadable from "@loadable/component";
 import TagManager from "react-gtm-module";
 import ReactGA from "react-ga";
-// import Alerts from "Components/Alert";
+const Alerts = loadable(() => import("Components/Alert"));
 const FemaleInfertility = loadable(() => import("Pages/FemaleInfertility"));
-// const Paripoorna = loadable(() => import("demos/Paripoorna.js"));
+const Paripoorna = loadable(() => import("Pages/Paripoorna.js"));
+const KnParipoorna = loadable(() => import("Pages/KnParipoorna"));
 const RefundPolicy = loadable(() =>
   import("Pages/technicalStuff/RefundPolicy")
 );
@@ -53,7 +54,7 @@ export default function App() {
       >
         <BrowserRouter>
           <ThemeProvider theme={theme}>
-            {/* <Alerts /> */}
+            <Alerts />
             <Switch>
               <Route component={Home} path="/" exact />
               <Route component={IvfAtHome} path="/ivf-from-home" exact />
@@ -66,7 +67,8 @@ export default function App() {
               <Route path="/terms-and-conditions" component={TermsConditions} />
               <Route path="/refund-policy" component={RefundPolicy} />
               <Route path="/female-infertility" component={FemaleInfertility} />
-              {/* <Route path="/demo/paripoorna" component={Paripoorna} /> */}
+              <Route path="/paripoorna" component={Paripoorna} />
+              <Route path="/kn/paripoorna" component={KnParipoorna} />
 
               <Route
                 path="/contact-us"

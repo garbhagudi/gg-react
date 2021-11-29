@@ -6,7 +6,7 @@ export default [
   },
   {
     path: "intro",
-    label: "Male Infertility",
+    label: "Infertility",
   },
   {
     path: "causes",
