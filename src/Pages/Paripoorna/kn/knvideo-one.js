@@ -15,7 +15,9 @@ const VideoOne = () => {
   return (
     <Box as="section" sx={styles.video}>
       <Container>
-        <Heading as="h3">ಪರಿಪೂರ್ಣ ಅವಲೋಕನ</Heading>
+        <Heading as="h3" style={{ fontFamily: "'Noto Sans Kannada'" }}>
+          ಪರಿಪೂರ್ಣ ಅವಲೋಕನ
+        </Heading>
         <Box sx={styles.videoBox}>
           <Image
             src="https://res.cloudinary.com/garbhagudi/image/upload/v1638185192/garbhagudi-ivf/Images%20/you_thumbnail_ocegdx.webp"
@@ -54,6 +56,7 @@ const styles = {
       fontWeight: "bold",
       lineHeight: [1.6, null, null, 1.25],
       textAlign: "center",
+      fontFamily: "kannadaHead",
     },
     p: {
       fontSize: ["15px", null, null, "17px"],

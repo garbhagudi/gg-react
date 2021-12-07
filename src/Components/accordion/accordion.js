@@ -26,10 +26,14 @@ export default function Accordion({ items, ...props }) {
                 <span>
                   {openIndexes.includes(index) ? openIcon : closeIcon}
                 </span>
-                {item.title}
+                <div style={{ fontFamily: "'Baloo Tamma 2'" }}>
+                  {item.title}
+                </div>
               </AccordionButton>
               <AccordionContents isOpen={openIndexes.includes(index)}>
-                {item.contents}
+                <span style={{ fontFamily: "'Baloo Tamma 2'" }}>
+                  {item.contents}
+                </span>
               </AccordionContents>
             </AccordionItem>
           ))}

@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Box, Flex, Grid, Container, Button, Image, Text } from "theme-ui";
-import SectionHeading from "Components/section-heading";
+import SectionHeading from "Components/section-heading-kn";
 import { Link } from "react-router-dom";
 
 const Banner = () => {
@@ -15,7 +15,7 @@ const Banner = () => {
               title="
               ಇದು ಸಂಪೂರ್ಣವಾದ ಸಂತೋಷದ ಋತು"
             />
-            <Text as="p">
+            <Text as="p" style={{ fontFamily: "'Baloo Tamma 2'" }}>
               ಸಂತಾನೂತ್ಪತ್ತಿಯ ಚಿಕಿತ್ಸೆಗಳು ಅವಶ್ಯಕತೆ ಇರುವ ಎಲ್ಲಾ ದಂಪತಿಗಳಿಗೆ
               ದೊರೆಯಬೇಕೆಂಬ ಮಹಾದಾಸೆ ನಮ್ಮದು. ನಮ್ಮ ಅನುಭವದ ಪ್ರಕಾರ ಐವಿಎಫ್ ನ ನೂತನ
               ಚಿಕೆತ್ಸೆಯ ದರಗಳು ಎಲ್ಲಾ ಅವಶ್ಯಕ ದಂಪತಿಗಳು ಬರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಇದನ್ನು
@@ -27,7 +27,12 @@ const Banner = () => {
             </Text>
             <div sx={styles.buttonGroup}>
               <Button variant="secondary">
-                <Link to="/contact-us">ಪ್ರಾರಂಭಿಸಿ</Link>
+                <Link
+                  to="/contact-us"
+                  style={{ fontFamily: "'Noto Sans Kannada'" }}
+                >
+                  ಪ್ರಾರಂಭಿಸಿ
+                </Link>
               </Button>
             </div>
           </Box>
@@ -69,17 +74,15 @@ const styles = {
         fontSize: [9, null, null, null, 12, 14, 15],
         lineHeight: [1.33, null, null, null, 1.36],
         letterSpacing: "heading",
-        fontFamily: "kannadaHead",
       },
     },
     p: {
       color: "textSecondary",
-      fontSize: [1, null, null, 2],
+      fontSize: [2, null, null, 3],
       lineHeight: 1.7,
       maxWidth: 480,
       mx: [null, null, null, "auto", "unset"],
       marginTop: [1, null, null, 3],
-      fontFamily: "kannadaBody",
     },
   },
   buttonGroup: {

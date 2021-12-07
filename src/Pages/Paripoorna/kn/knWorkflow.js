@@ -3,7 +3,7 @@
 
 import { jsx } from "theme-ui";
 import { Container, Grid, Box, Heading, Text, Button } from "theme-ui";
-import SectionHeading from "Components/section-heading";
+import SectionHeading from "Components/section-heading-kn";
 import { Link } from "react-router-dom";
 
 const data = [
@@ -40,8 +40,18 @@ export default function WorkFlow() {
             <Box sx={styles.card} key={item.id}>
               <Box sx={styles.iconBox}>{`0${item.id}`}</Box>
               <Box sx={styles.wrapper}>
-                <Heading sx={styles.wrapper.heading}>{item.title}</Heading>
-                <Text sx={styles.wrapper.description}>{item.text}</Text>
+                <Heading
+                  sx={styles.wrapper.heading}
+                  style={{ fontFamily: "'Noto Sans Kannada'" }}
+                >
+                  {item.title}
+                </Heading>
+                <Text
+                  sx={styles.wrapper.description}
+                  style={{ fontFamily: "'Baloo Tamma 2'" }}
+                >
+                  {item.text}
+                </Text>
               </Box>
             </Box>
           ))}
@@ -49,7 +59,9 @@ export default function WorkFlow() {
       </Container>
       <Box sx={styles.buttonWrapper}>
         <Button variant="secondary">
-          <Link to="/contact-us">ಅಪಾಯಿಂಟ್‌ಮೆಂಟ್ ಬುಕ್ ಮಾಡಿ</Link>
+          <Link to="/contact-us" style={{ fontFamily: "'Noto Sans Kannada'" }}>
+            ಅಪಾಯಿಂಟ್‌ಮೆಂಟ್ ಬುಕ್ ಮಾಡಿ
+          </Link>
         </Button>
       </Box>
     </section>
@@ -92,7 +104,6 @@ const styles = {
     mb: [4, null, null, 0],
     fontSize: [8, 9, null, null, 10, null, null, 11],
     fontWeight: 300,
-    fontFamily: "DM Sans",
     color: "heading",
     lineHeight: 1,
     letterSpacing: "heading",

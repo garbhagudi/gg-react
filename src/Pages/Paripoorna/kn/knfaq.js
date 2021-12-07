@@ -2,7 +2,7 @@
 /** @jsx jsx */
 import { jsx, Container, Box } from "theme-ui";
 import loadable from "@loadable/component";
-const SectionHeading = loadable(() => import("Components/section-heading"));
+const SectionHeading = loadable(() => import("Components/section-heading-kn"));
 const Accordion = loadable(() => import("Components/accordion/accordion"));
 const faqs = [
   {
@@ -143,7 +143,7 @@ export default function Faq() {
             my: -4,
           }}
         >
-          <Accordion items={faqs} />
+          <Accordion items={faqs} style={{ fontFamily: "'Baloo Tamma 2'" }} />
         </Box>
       </Container>
     </Box>

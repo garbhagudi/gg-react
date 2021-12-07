@@ -26,8 +26,6 @@ export default {
     //   'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
     heading: "B612, sans-serif",
     monospace: "Menlo, monospace",
-    kannadaBody: "Baloo Tamma 2",
-    KannadaHead: "Noto Sans Kannada",
   },
   fontSizes: [
     12, // 0

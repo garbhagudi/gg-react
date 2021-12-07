@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Box, Flex, Container, Image as Img, Text } from "theme-ui";
-import SectionHeading from "Components/section-heading";
+import SectionHeading from "Components/section-heading-kn";
 
 const Benefits = () => {
   return (
@@ -20,7 +20,7 @@ const Benefits = () => {
               title="ಪರಿಪೂರ್ಣ ಕೊಡುಗೆಯ ಪ್ರಯೋಜನಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಿ ಮತ್ತು ನಿಮ್ಮ 
               ತಾಯ್ತನದ ಕನಸನ್ನು ನನಸಾಗಿಸಿ"
             />
-            <Text>
+            <Text style={{ fontFamily: "'Baloo Tamma 2'" }}>
               ‘ಪರಿಪೂರ್ಣ’ ಎಂಬ ಪದದ ಅರ್ಥ ಈಡೇರಿಕೆ. ಡಾ ಆಶಾ ಅವರ ಮೇಲ್ವಿಚಾರಣೆಯಲ್ಲಿರುವ
               ಗರ್ಭಗುಡಿ ಅನೇಕ ದಂಪತಿಗಳ ತಮ್ಮ ತಾಯ್ತನ ಸಾಧಿಸುವ ಕನಸುಗಳನ್ನು ನನಸಾಗಿಸಲು
               ಪ್ರಯತ್ನಿಸುತ್ತಿದೆ.
@@ -82,7 +82,7 @@ const styles = {
         null,
         null,
         null,
-        "scaleY(1.50) scaleX(1.3)",
+        "scaleY(1.42) scaleX(1.3)",
       ],
     },
   },

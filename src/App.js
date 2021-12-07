@@ -5,8 +5,6 @@ import "app.css";
 import "react-modal-video/css/modal-video.min.css";
 import "rc-drawer/assets/index.css";
 import loadable from "@loadable/component";
-import TagManager from "react-gtm-module";
-import ReactGA from "react-ga";
 const Alerts = loadable(() => import("Components/Alert"));
 const FemaleInfertility = loadable(() => import("Pages/FemaleInfertility"));
 const Paripoorna = loadable(() => import("Pages/Paripoorna.js"));
@@ -27,16 +25,6 @@ const Footer = loadable(() => import("Components/footer/footer"));
 const MaleInfertility = loadable(() => import("Pages/MaleInfertility"));
 const OnlineConsultation = loadable(() => import("Pages/OnlineConsultation"));
 const PageNotFound = loadable(() => import("Pages/404.js"));
-
-const tagManagerArgs = {
-  gtmId: "GTM-NT9BZ69",
-};
-
-TagManager.initialize(tagManagerArgs);
-
-ReactGA.initialize("UA-155539487-1");
-ReactGA.set({ page: window.location.pathname });
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 export default function App() {
   return (
