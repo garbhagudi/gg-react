@@ -7,9 +7,9 @@ const Alerts = () => {
     <div>
       <Alert sx={styles.wrapper} role="alert">
         <Box sx={styles.alert}>
-          PARIPOORNA - avail upto* 50% on IVF Treatments. <br />
-          <Link to="/contact-us">Register Now </Link> &emsp; | &emsp;
-          <Link to="/paripoorna">Know More</Link>
+          This New Year! Let's bring home a little bundle of priceless joy!{" "}
+          <br />
+          <Link to="/contact-us">Register Now </Link>
           <br />
         </Box>
       </Alert>
@@ -21,7 +21,7 @@ export default Alerts;
 
 const styles = {
   wrapper: {
-    backgroundColor: "#a87b9e",
+    backgroundColor: "secondary",
     borderRadius: 0,
     textAlign: "center",
     a: {
@@ -30,6 +30,6 @@ const styles = {
   },
   alert: {
     mx: "auto",
-    fontSize: [1, null, null, 14.5],
+    fontSize: [14.9, null, null, 17.5],
   },
 };

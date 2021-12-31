@@ -10,23 +10,6 @@ import { Link } from "react-router-dom";
 const data = [
   {
     id: 1,
-    tabTitle: "Value Added Services",
-    title: `Concerned about stepping out of your home during this Pandemic ?`,
-    description: `Our value added service was started specially for patients seeking infertility treatment during the ongoing pandemic. The idea is to help you start IVF treatment right from the safety of your home and minimize travel risks.`,
-    moreLink: "/ivf-from-home",
-    image:
-      "https://res.cloudinary.com/garbhagudi/image/upload/v1633780583/garbhagudi-ivf/Images%20/ivffromhome_evpbae.webp",
-    list: [
-      "IVF from Home",
-      "GarbhaGriha ",
-      "Zero Cost EMI",
-      "Paripoorna",
-      "GG Care",
-      "and more",
-    ],
-  },
-  {
-    id: 2,
     tabTitle: "Treatment Options",
     title: `You are not alone in fight against Infertility`,
     description: `Garbhagudi provides an in-depth analysis of infertility and come up with a tailored treatment protocol since every problem is distinct in essence.`,
@@ -42,6 +25,23 @@ const data = [
       "TESA/PESA",
       "ICSI",
       "Hyesteroscopy",
+    ],
+  },
+  {
+    id: 2,
+    tabTitle: "Value Added Services",
+    title: `Concerned about stepping out of your home during this Pandemic ?`,
+    description: `Our value added service was started specially for patients seeking infertility treatment during the ongoing pandemic. The idea is to help you start IVF treatment right from the safety of your home and minimize travel risks.`,
+    moreLink: "/ivf-from-home",
+    image:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1633780583/garbhagudi-ivf/Images%20/ivffromhome_evpbae.webp",
+    list: [
+      "IVF from Home",
+      "GarbhaGriha ",
+      "Zero Cost EMI",
+      "Paripoorna",
+      "GG Care",
+      "and more",
     ],
   },
 ];
