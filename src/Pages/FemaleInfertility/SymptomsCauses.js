@@ -32,8 +32,8 @@ const data = [
   {
     id: 5,
     icon: "https://res.cloudinary.com/garbhagudi/image/upload/v1637219620/garbhagudi-ivf/Icons/menopause_eizqjp.png",
-    title: "Ovarian Failure and early menopause",
-    description: `Menopause is a condition where the female ovaries are no longer able to produce adequate amount of oestrogen hormone which releases an egg every month.  Early menopause is a condition where the woman achieves ceases to ovulate before the age of 40.`,
+    title: "Ovarian failure and early menopause",
+    description: `Menopause is a condition where the female ovaries are no longer able to produce adequate amount of oestrogen hormone which releases an egg every month.  Early menopause is a condition where the woman stops ovulating before the age of 40.`,
   },
   {
     id: 6,

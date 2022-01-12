@@ -16,8 +16,8 @@ const VideoOne = () => {
     <Box as="section" sx={styles.video}>
       <Container>
         <Heading as="h3">
-          Meet this Couple who turned their Dream into a reality. <br /> Now its
-          your turn.
+          Meet this couple. Their dreams have come alive…
+          <br /> It’s your turn now!
         </Heading>
         <Box sx={styles.videoBox}>
           <Image

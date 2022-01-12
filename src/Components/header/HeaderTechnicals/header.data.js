@@ -1,12 +1,16 @@
 /* eslint-disable import/no-anonymous-default-export */
 export default [
   {
-    path: "/home",
+    path: "/",
     label: "Home",
   },
   {
     path: "/male-infertility",
     label: "Male Infertility",
+  },
+  {
+    path: "/female-infertility",
+    label: "Female Infertility",
   },
   {
     path: "/ivf-from-home",

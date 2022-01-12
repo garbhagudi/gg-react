@@ -16,12 +16,14 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Begin your journey towards parenthood from the comfort of your Home.
+            Begin your journey towards parenthood from the comfort of your home.
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Easy, Secure & Private... <br /> Connect with our Experts for a
-            consultation or second opinion at your convenient time at no Extra
-            Cost from your home.
+            Easy, Secure & Private... <br /> Connect with our experts to have a
+            quick consultation from home
+          </Text>
+          <Text as="p" variant="heroSecondary">
+            No Extra Cost!!
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Get Started">

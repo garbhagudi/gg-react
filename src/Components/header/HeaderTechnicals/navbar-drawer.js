@@ -3,7 +3,7 @@
 import { IoMdMenu } from "react-icons/io";
 import React, { useContext } from "react";
 import { jsx, Box, Image } from "theme-ui";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import { DrawerContext } from "contexts/drawer/drawer-context";
 import Drawer from "Components/drawer";
 import Logo from "Components/logo";
@@ -74,7 +74,7 @@ const styles = {
     flexShrink: "0",
     width: "26px",
     cursor: "pointer",
-    "@media screen and (min-width: 1024px)": {
+    "@media screen and (min-width: 1366px)": {
       display: "none",
     },
   },

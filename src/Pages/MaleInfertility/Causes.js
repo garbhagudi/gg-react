@@ -20,12 +20,11 @@ const Causes = () => {
                 </Heading>
                 <br />A man’s sperm count is considered lower than normal if he
                 has fewer than 15 million sperm per mL of semen which can
-                decrease the chances of conceiving a child simply because it
-                means fewer opportunities for fertilization. Low sperm count is
-                caused by a variety of physiological, environmental and
-                lifestyle factors, from infections, hormonal imbalances, and
-                autoimmune problems, to emotional stress, depression and
-                obesity.
+                decrease the chances of conceiving a child simply because of
+                fewer opportunities for fertilization. Low sperm count is caused
+                by a variety of physiological, environmental and lifestyle
+                factors, from infections, hormonal imbalances, and autoimmune
+                problems, to emotional stress, depression and obesity.
               </Text>
             </Box>
             <Box sx={styles.image}>
@@ -50,9 +49,9 @@ const Causes = () => {
                 Sperm motility refers to the ability of sperm to move
                 efficiently. It is important in fertility because sperm need to
                 move rapidly and directly through the woman’s reproductive tract
-                in order to reach and fertilize her egg before the sperm cells
-                die. Damage to the testicles, which make and store sperms could
-                be a reason for low sperm motility.
+                to reach and fertilize her egg before the sperm cells die.
+                Damage to the testicles, which make and store sperms could be a
+                reason for low sperm motility.
               </Text>
             </Box>
             <Box sx={styles.image}>
@@ -128,12 +127,12 @@ const Causes = () => {
         <Container sx={styles.container}>
           <Heading as="h3">So what should a man do?</Heading>
           <Text as="p">
-            The first step is to go for a fertility consulting with an
-            urologist. The urologist will give you a physical exam and ask you
-            questions about your lifestyle and medical history, such as:
+            The first step is to consult a urologist and discuss about the
+            fertility problems. The urologist will give you a physical exam and
+            ask you questions about your lifestyle and medical history, such as
             surgeries you've had, medications you take, your exercise habits and
-            whether you smoke or take recreational drugs. They may also have a
-            frank discussion with you about your sex life, including any
+            whether you smoke or take recreational drugs. The urologist may also
+            have an open discussion with you about your sex life, including any
             problems you've had or whether you have or ever had any sexually
             transmitted diseases. You'll then be asked to give a sample of semen
             for analysis.

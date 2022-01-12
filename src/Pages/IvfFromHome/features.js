@@ -49,10 +49,10 @@ const Features = () => {
               sx={styles.heading}
               title={
                 <Fragment>
-                  IVF From Home : <br /> A Boon for Couples planning IVF
+                  IVF From Home : <br /> A boon for couples planning IVF
                 </Fragment>
               }
-              description="Being Pioneers in the industry, we have delivered more than 2000 IVF from Home services so far... "
+              description="Being pioneers in the industry, we have crossed more than 2000 IVFs from home services so far... "
             />
           </Box>
         </Box>

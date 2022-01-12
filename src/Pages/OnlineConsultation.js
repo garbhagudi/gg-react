@@ -1,7 +1,6 @@
 import React from "react";
 import loadable from "@loadable/component";
 import Helmet from "react-helmet";
-const Header = loadable(() => import("Components/header/HeaderOc/header"));
 const Banner = loadable(() => import("Pages/OnlineConsultation/Banner"));
 const Advantages = loadable(() =>
   import("Pages/OnlineConsultation/Advantages")
@@ -44,7 +43,6 @@ const OnlineConsultation = () => {
         />
         <meta name="twitter:card" content="summary_large_image"></meta>
       </Helmet>
-      <Header />
       <Banner />
       <Workflow />
       <Advantages />

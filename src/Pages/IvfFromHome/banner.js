@@ -16,7 +16,7 @@ const Banner = () => {
               IPL stands for Injections, Pharmacy & Lab. It is a service by
               GarbhaGudi specially started for patients seeking infertility
               treatment during the ongoing pandemic. The idea is to help you
-              start treatment right from the safety of your home.
+              start treatments from your home to keep you safe and protected.
             </Text>
           </Box>
           <Box sx={styles.image}>

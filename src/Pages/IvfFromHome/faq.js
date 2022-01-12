@@ -12,16 +12,16 @@ const faqs = [
       <div>
         We do medical examination of the person before sending them by checking
         for temperature & symptoms of Covid-19 and only then send them.They will
-        also wear a mask and use santizer before entring your home. All our
-        staff is fully vaccinated.
+        also wear a mask and use a santizer before entering your home. We have
+        fully vaccinated our staff.
       </div>
     ),
   },
   {
-    title: "Our area comes under red zone, so how does it work?",
+    title: "Our area comes under the red zone, so how does it work?",
     contents: (
       <div>
-        We can't send our staff to red zone area as per Government rules.
+        We can't send our staff to the red zone area as per government rules.
       </div>
     ),
   },
@@ -66,7 +66,7 @@ const faqs = [
     title: `What are the timings for this facility ? Is it available 24/7 ?`,
     contents: (
       <div>
-        This is not a 24/7 facility, but if the Doctor suggests that you need to
+        This is not a 24/7 facility, but if the doctor suggests that you need to
         take certain injections, medication or scans at certain times, we will
         do the needful no matter what time it is.
       </div>
@@ -76,8 +76,8 @@ const faqs = [
     title: `How many members will visit my place?`,
     contents: (
       <div>
-        Only 2 members will visit you, 1 driver and 1 Staff nurse or lab
-        assistant. The driver stays outside!
+        Only 2 members will visit you. A driver and a Staff nurse or lab
+        assistant. The driver stays outside.
       </div>
     ),
   },

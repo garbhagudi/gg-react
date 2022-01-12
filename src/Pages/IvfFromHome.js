@@ -1,9 +1,6 @@
 import React from "react";
 import loadable from "@loadable/component";
 import Helmet from "react-helmet";
-const IfhHeader = loadable(() =>
-  import("Components/header/HeaderIVFHome/header")
-);
 const Banner = loadable(() => import("Pages/IvfFromHome/banner"));
 const WorkFlow = loadable(() => import("Pages/IvfFromHome/workflow"));
 const SubscribeUs = loadable(() => import("Pages/Home/subscribe-us"));
@@ -45,7 +42,6 @@ const IvfFromHome = () => {
         />
         <meta name="twitter:card" content="summary_large_image"></meta>
       </Helmet>
-      <IfhHeader />
       <Banner />
       <VideoTwo />
       <WorkFlow />

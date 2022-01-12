@@ -12,17 +12,17 @@ const workflowData = [
   {
     id: 2,
     title: "Sample Collection",
-    text: "Our Nurse will come to your home to collect your blood samples. Proper Covid guidelines will be followed.",
+    text: "Our nurse will come to your home to collect your blood samples. Proper COVID-19 guidelines will be followed.",
   },
   {
     id: 3,
     title: "Analysis of Samples",
-    text: "We will analyse the Blood samples received in our Labs.",
+    text: "We will analyse the your blood samples received in our labs.",
   },
   {
     id: 4,
     title: "Planning & Treatment",
-    text: "Our specialist will plan your Treatment and you'll only be asked to vist the Hospital for scans and actual procedures",
+    text: "Our specialist will plan your treatment and you'll only be asked to visit the hospital for scans and actual procedures",
   },
 ];
 

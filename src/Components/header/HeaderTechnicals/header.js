@@ -4,7 +4,7 @@ import { jsx, Box, Container, Button } from "theme-ui";
 import Sticky from "react-stickynode";
 import Logo from "Components/logo";
 import { DrawerProvider } from "contexts/drawer/drawer-provider";
-import NavbarDrawer from "Components/header/HeaderMaleInf/navbar-drawer";
+import NavbarDrawer from "Components/header/HeaderTechnicals/navbar-drawer";
 import menuItems from "./header.data";
 import { Link } from "react-router-dom";
 
@@ -29,7 +29,7 @@ export default function Header() {
                     <Link to="/contact-us">Book An Appointment</Link>
                   </Button>
                 </Box>
-                <Button variant="secondary" sx={styles.getStartedMobile}>
+                <Button variant="primaryMd" sx={styles.getStartedMobile}>
                   <Link to="/contact-us">Book Now</Link>
                 </Button>
                 <NavbarDrawer />
@@ -70,7 +70,8 @@ const styles = {
     justifyContent: "space-between",
   },
   logo: {
-    mr: [null, null, null, null, 12, 12],
+    mr: [null, null, null, null, 1, 1],
+    pr: [null, null, null, null, -12, -14],
   },
   navbar: {
     display: ["none", null, null, null, "flex"],
@@ -80,10 +81,12 @@ const styles = {
     justifyContent: "center",
   },
   navList: {
-    display: ["flex"],
+    display: ["none", "none", "none", "none", "none", "flex"],
     listStyle: "none",
-    flexGrow: 1,
-    fontSize: [3, null, null, null, 13.2, 13.2, 3],
+    textAlign: "center",
+    fontSize: [3, null, null, null, null, 13.2, 13.2],
+    fontFamily: "body",
+    fontWeight: "bold",
     p: 0,
     "li:last-child": {
       ml: ["auto"],
@@ -105,7 +108,8 @@ const styles = {
   },
   getStartedDesktop: {
     color: "secondary",
-    display: ["none", "none", "none", "none", "flex"],
+    mr: "-20px",
+    display: ["none", "none", "none", "none", "none", "none", "flex"],
     a: {
       textDecoration: "none",
       color: "secondary",
@@ -117,7 +121,7 @@ const styles = {
     minHeight: 30,
     m: ["0 15px 0 auto"],
     padding: "0 11px",
-    display: ["flex", null, null, null, "none"],
+    display: ["flex", null, null, null, "flex", "flex", "none"],
     a: {
       textDecoration: "none",
       color: "white",

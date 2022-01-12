@@ -1,7 +1,6 @@
 import React from "react";
 import loadable from "@loadable/component";
 import Helmet from "react-helmet";
-const Header = loadable(() => import("Components/header/HeaderHome/header"));
 const Banner = loadable(() => import("Pages/Home/banner"));
 const Testimonials = loadable(() => import("Pages/Home/testimonials"));
 const OurTeam = loadable(() => import("Pages/Home/our-team"));
@@ -38,7 +37,6 @@ const Home = () => {
         />
         <meta name="twitter:card" content="summary_large_image"></meta>
       </Helmet>
-      <Header />
       <Banner />
       <OtherServices />
       <Calculators />

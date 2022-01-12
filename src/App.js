@@ -5,6 +5,7 @@ import "app.css";
 import "react-modal-video/css/modal-video.min.css";
 import "rc-drawer/assets/index.css";
 import loadable from "@loadable/component";
+import Header from "Components/header/HeaderTechnicals/header";
 const Alerts = loadable(() => import("Components/Alert"));
 const FemaleInfertility = loadable(() => import("Pages/FemaleInfertility"));
 const Paripoorna = loadable(() => import("Pages/Paripoorna.js"));
@@ -43,6 +44,7 @@ export default function App() {
         <BrowserRouter>
           <ThemeProvider theme={theme}>
             <Alerts />
+            <Header />
             <Switch>
               <Route component={Home} path="/" exact />
               <Route component={IvfAtHome} path="/ivf-from-home" exact />

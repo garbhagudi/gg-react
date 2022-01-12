@@ -1,9 +1,6 @@
 import React from "react";
 import loadable from "@loadable/component";
 import Helmet from "react-helmet";
-const Header = loadable(() =>
-  import("Components/header/HeaderFemaleInf/header")
-);
 const Banner = loadable(() => import("Pages/FemaleInfertility/Banner"));
 const SymptomsCauses = loadable(() =>
   import("Pages/FemaleInfertility/SymptomsCauses")
@@ -45,7 +42,6 @@ const FemaleInfertility = () => {
         />
         <meta name="twitter:card" content="summary_large_image"></meta>
       </Helmet>
-      <Header />
       <Banner />
       <SymptomsCauses />
       <DiagnosisTreatment />

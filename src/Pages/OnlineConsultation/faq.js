@@ -6,7 +6,7 @@ import Accordion from "Components/accordion/accordion";
 
 const data = [
   {
-    title: "How can I access the Online Consultation? ",
+    title: "How can I book the Online Consultation? ",
     contents: (
       <div>
         You can click{" "}
@@ -18,17 +18,18 @@ const data = [
           here
         </a>{" "}
         and follow the steps mentioned above to book an appointment. Details
-        will be provided to you via the info provided during the booking stage.
+        will be provided to you via the information provided by you during the
+        booking stage.
       </div>
     ),
   },
   {
-    title: "When should you use the Online Consultation service?",
+    title: "Who should use the online consultation service?",
     contents: (
       <div>
         Patients who are looking for non-critical care, a follow-up or second
         opinion, reviewing medical reports, initial treatments. <br /> While
-        Online Consultation is not intended to replace your regular doctor or
+        online consultation is not intended to replace your regular doctor or
         specialist for common or chronic conditions, an online consultation can
         sometimes substitute a doctor’s visit.
       </div>
@@ -63,10 +64,10 @@ const Faq = () => {
               title="Frequently Asked Questions"
             />
             <Text as="p">
-              Check out out FAQ section and feel free to contact us at{" "}
+              Check out our FAQ section and feel free to contact us at{" "}
               <a href="tel:+918880000909">+918880000909</a> or drop an E-mail at{" "}
-              <a href="mailto:dreams@garbhagudi.com">dreams@garbhagudi.com</a>{" "}
-              and we will get back to you as soon as possible
+              <a href="mailto:dreams@garbhagudi.com">dreams@garbhagudi.com</a>.{" "}
+              We will get back to you as soon as possible
             </Text>
             <Box sx={styles.accordionGroup}>
               <Accordion items={data} />

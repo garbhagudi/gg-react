@@ -105,8 +105,8 @@ export default function TeamSection() {
       <Container>
         <SectionHeader
           sx={styles.header}
-          title="Meet our Superheroes"
-          description="Our team of fertility specialists have been recognized for their extensive clinical experience and research contributions, as well as for their success in treating the most challenging fertility cases."
+          title="Meet our Experts"
+          description="Our team of fertility specialists have been known for their extensive clinical experience and research contributions, as well as for their success in treating the most challenging fertility cases."
         />
 
         <Grid sx={styles.grid}>

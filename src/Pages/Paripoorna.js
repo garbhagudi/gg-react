@@ -2,7 +2,6 @@ import React from "react";
 import loadable from "@loadable/component";
 import Helmet from "react-helmet";
 const Banner = loadable(() => import("Pages/Paripoorna/Banner"));
-const Header = loadable(() => import("Components/header/HeaderPp/header"));
 const Benefits = loadable(() => import("Pages/Paripoorna/Benefits"));
 const Faq = loadable(() => import("Pages/Paripoorna/faq"));
 const Video = loadable(() => import("Pages/Paripoorna/video-one"));
@@ -36,7 +35,6 @@ const Paripoorna = () => {
         />
         <meta name="twitter:card" content="summary_large_image"></meta>
       </Helmet>
-      <Header />
       <Banner />
       <WorkFlow />
       <Video />

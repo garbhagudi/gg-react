@@ -11,8 +11,8 @@ const data = [
   {
     id: 1,
     tabTitle: "Treatment Options",
-    title: `You are not alone in fight against Infertility`,
-    description: `Garbhagudi provides an in-depth analysis of infertility and come up with a tailored treatment protocol since every problem is distinct in essence.`,
+    title: `You are not fighting alone against infertility!`,
+    description: `"GarbhaGudi provides an in-depth analysis of infertility issues and makes a tailored treatment protocol since every individual is unique."`,
     moreLink: "/online-consultation",
     image:
       "https://res.cloudinary.com/garbhagudi/image/upload/v1633780860/garbhagudi-ivf/Images%20/treatment_wykcf3.webp",

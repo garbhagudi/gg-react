@@ -223,15 +223,17 @@ export default {
       color: "white",
       bg: "primary",
       minHeight: ["50px", null, null, null, null, "60px"],
-      padding: ["0 25px", null, null, "0 30px"],
+      padding: ["0 15px", null, null, "0 20px"],
       "&:hover": {
         bg: "dark",
       },
     },
     primaryMd: {
       variant: "buttons.primary",
-      minHeight: "50px",
-      px: "25px",
+      minHeight: "30px",
+      px: "5px",
+      color: "white",
+      bg: "secondary",
     },
     secondary: {
       variant: "buttons.primary",

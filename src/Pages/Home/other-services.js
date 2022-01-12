@@ -9,20 +9,20 @@ const data = [
   {
     id: 2,
     icon: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780927/garbhagudi-ivf/Icons/service4_jnvjwo.webp",
-    title: "Top Fertility Sepcialists",
-    description: `Our team consists on the many qualified individuals, with a proven track record in dealing with the most challenging of cases.`,
+    title: "Top Fertility Specialists",
+    description: `Our team consists of the many qualified doctors, with a proven track record in dealing with the most challenging of cases.`,
   },
   {
     id: 3,
     icon: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780927/garbhagudi-ivf/Icons/service7_xwcnxd.webp",
     title: "High Success Rates",
-    description: `One of the highest success rates in the industry - Over 66%`,
+    description: `GarbhaGudi constantly achieves highest IVF success rates in the country.`,
   },
   {
     id: 6,
-    icon: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780927/garbhagudi-ivf/Icons/service3_xt65xs.webp",
-    title: "Affordable Treatment",
-    description: `Affordable treatments without any compromise on service or quality of service or media.`,
+    icon: "https://res.cloudinary.com/garbhagudi/image/upload/v1633780927/garbhagudi-ivf/Icons/service5_fsjldj.webp",
+    title: "Treatment Standards",
+    description: `Recognized as the most reputed IVF centre in India due to its exceptional quality of treatments and holistic approach.`,
   },
 ];
 

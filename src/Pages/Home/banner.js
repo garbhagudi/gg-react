@@ -14,7 +14,7 @@ const Banner = () => {
           <SectionHeading
             sx={styles.heading}
             title="Thousands of babies and millions of memories began with a visit to GarbhaGudi"
-            description="Starting new chapters for families since 2011"
+            description="Making families smile since 2011"
           />
           <Box as="figure" sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>

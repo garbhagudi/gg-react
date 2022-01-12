@@ -23,11 +23,11 @@ const Advantages = () => {
                 </Text>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-                  Flexibility of choosing your time
+                  Flexibility of choosing your convenient time
                 </Text>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-                  Option of choosing the specialist of your choice
+                  Option of selecting the specialist of your choice
                 </Text>
                 <Text as="li">
                   <IoIosCheckmarkCircle />

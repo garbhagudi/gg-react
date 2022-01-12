@@ -10,7 +10,7 @@ const Advancements = () => {
         <Text as="p">
           A semen analysis is a test performed to screen for male fertility
           problems. The evaluation of sperm cell motility (movement) and
-          morphology (shape and size) is an essential parameter in the
+          morphology (shape and size) is an essential parameters in the
           examination of sperm quality and CASA allows an objective assessment
           of sperm quality. At GarbhaGudi, we use a sophisticated electronic
           imaging system to visualize the sperm and an advanced software program

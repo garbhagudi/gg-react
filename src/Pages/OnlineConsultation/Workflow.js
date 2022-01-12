@@ -14,12 +14,12 @@ const data = [
   {
     id: 2,
     title: "Select Timings",
-    text: "Choose the timings most convenient for you.",
+    text: "Choose the most confortable timings for you.",
   },
   {
     id: 3,
     title: "Book Appointment",
-    text: "Book the appointment by making the payment ",
+    text: "Book an appointment by making the payment ",
   },
 ];
 

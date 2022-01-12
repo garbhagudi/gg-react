@@ -11,8 +11,8 @@ const data = [
       <div>
         In infertile couples where women have blocked or absent fallopian tubes,
         or where men have low sperm counts, in vitro fertilization (IVF) offers
-        a chance at parenthood to couples who until recently would have had no
-        hope of having a "biologically related" child....
+        a chance of parenthood to couples who until recently would had no hope
+        of having a "biologically related" child....
       </div>
     ),
   },
