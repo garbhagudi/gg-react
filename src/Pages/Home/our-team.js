@@ -43,15 +43,15 @@ const data = [
     designation: "Fertility Specialist",
     // website: "https://garbhagudi.com/dr-chinmayie-r",
   },
-  {
-    id: 5,
-    imgSrc:
-      "https://res.cloudinary.com/garbhagudi/image/upload/v1633780868/garbhagudi-ivf/Images%20/member6_rrjqnv.webp",
-    altText: "Dr Swetha V",
-    title: "Dr Swetha V",
-    designation: "Fertility Specialist",
-    // website: "https://garbhagudi.com/dr-swetha-v",
-  },
+  // {
+  //   id: 5,
+  //   imgSrc:
+  //     "https://res.cloudinary.com/garbhagudi/image/upload/v1633780868/garbhagudi-ivf/Images%20/member6_rrjqnv.webp",
+  //   altText: "Dr Swetha V",
+  //   title: "Dr Swetha V",
+  //   designation: "Fertility Specialist",
+  //   // website: "https://garbhagudi.com/dr-swetha-v",
+  // },
   {
     id: 6,
     imgSrc:
@@ -73,20 +73,20 @@ const data = [
   {
     id: 8,
     imgSrc:
-      "https://res.cloudinary.com/garbhagudi/image/upload/v1634886295/garbhagudi-ivf/Images%20/swatishree_r8ze7n.webp",
-    altText: "Dr Swati Shree",
-    title: "Dr Swati Shree",
-    designation: "Fertility Specialist",
-    // website: "https://garbhagudi.com/dr-swati-shree/",
-  },
-  {
-    id: 9,
-    imgSrc:
       "https://res.cloudinary.com/garbhagudi/image/upload/v1634886294/garbhagudi-ivf/Images%20/vandana_w2ieei.webp",
     altText: "Dr Vandana Ramanathan",
     title: "Dr Vandana R",
     designation: "Fertility Specialist",
     // website: "https://garbhagudi.com/dr-vandana-ramanathan/",
+  },
+  {
+    id: 9,
+    imgSrc:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1643980098/garbhagudi-ivf/Images%20/Jahnavi-modified_ivxuei.png",
+    altText: "Dr Jahnavi Esanakula",
+    title: "Dr Jahnavi Esanakula",
+    designation: "Fertility Specialist",
+    // website: "https://garbhagudi.com/dr-swati-shree/",
   },
   {
     id: 10,

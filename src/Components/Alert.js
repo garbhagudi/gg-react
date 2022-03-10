@@ -7,9 +7,8 @@ const Alerts = () => {
     <div>
       <Alert sx={styles.wrapper} role="alert">
         <Box sx={styles.alert}>
-          This New Year! Let's bring home a little bundle of priceless joy!{" "}
-          <br />
-          <Link to="/contact-us">Register Now </Link>
+          Awarded as Best IVF Clinic of the Year by ETHealthworld.com <br />
+          <Link to="/contact-us">Book a Free Consultation </Link>
           <br />
         </Box>
       </Alert>
@@ -30,6 +29,6 @@ const styles = {
   },
   alert: {
     mx: "auto",
-    fontSize: [14.9, null, null, 17.5],
+    fontSize: [13.9, null, null, 17.5],
   },
 };
