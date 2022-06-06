@@ -12,7 +12,7 @@ const Alerts = () => {
           <br />
         </Box>
       </Alert>
-    </div>W
+    </div>
   );
 };
 
