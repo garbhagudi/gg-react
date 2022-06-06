@@ -7,12 +7,12 @@ const Alerts = () => {
     <div>
       <Alert sx={styles.wrapper} role="alert">
         <Box sx={styles.alert}>
-          Experience the Joy of being Complete <br />
+          Experience the Joy of Being Complete <br />
           <Link to="/contact-us">Book a Free Consultation </Link>
           <br />
         </Box>
       </Alert>
-    </div>
+    </div>W
   );
 };
 
