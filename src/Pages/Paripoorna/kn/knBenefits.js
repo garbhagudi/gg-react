@@ -10,7 +10,7 @@ const Benefits = () => {
         <Box sx={styles.grid}>
           <Flex sx={styles.illustration}>
             <Img
-              src="https://res.cloudinary.com/garbhagudi/image/upload/v1638186875/garbhagudi-ivf/Images%20/afg_tbm98m.webp"
+              src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1669818341/paripoorna/Google_Ads_1to1_Kan-min_hthnwu.jpg"
               alt="privacy"
             />
           </Flex>

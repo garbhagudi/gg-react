@@ -20,7 +20,7 @@ const VideoOne = () => {
         </Heading>
         <Box sx={styles.videoBox}>
           <Image
-            src="https://res.cloudinary.com/garbhagudi/image/upload/v1638185192/garbhagudi-ivf/Images%20/you_thumbnail_ocegdx.webp"
+            src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1669817800/paripoorna/YT_Kan-01_t65wdq.webp"
             alt="testimonial video"
           />
           <Link

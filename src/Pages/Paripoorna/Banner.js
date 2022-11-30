@@ -18,10 +18,10 @@ const Banner = () => {
               Our intention is to serve couple who are missing parenthood. With
               our experience, we know that not every couple can afford IVF. With
               this in mind, GarbhaGudi IVF Centre in association with GarbhaGnan
-              Foundation, initiated a program called PARIPOORNA-2021. Under this
+              Foundation, initiated a program called PARIPOORNA-2022. Under this
               programme, the couple can{" "}
-              <strong>avail up to 50% discount </strong>on cost of IVF
-              treatment.
+              <strong>avail up to ₹30,000 off </strong>
+              on cost of IVF treatment.
             </Text>
             <div sx={styles.buttonGroup}>
               <Button variant="secondary">
@@ -31,7 +31,7 @@ const Banner = () => {
           </Box>
           <Flex as="figure" sx={styles.illustration}>
             <Image
-              src="https://res.cloudinary.com/garbhagudi/image/upload/v1638004896/garbhagudi-ivf/Banners/papu_033_oz4xlk.webp"
+              src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1669644730/paripoorna/Paripoorna_Logo_Eng-min_tetlth.png"
               alt="illustration"
             />
           </Flex>

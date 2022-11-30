@@ -10,7 +10,7 @@ const Benefits = () => {
         <Box sx={styles.grid}>
           <Flex sx={styles.illustration}>
             <Img
-              src="https://res.cloudinary.com/garbhagudi/image/upload/v1638186087/garbhagudi-ivf/Images%20/english_creativbe_bvlhzr.webp"
+              src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1669816902/paripoorna/Paripoorna_Announce_1to1_Post_wbknwn.jpg"
               alt="benefits"
             />
           </Flex>

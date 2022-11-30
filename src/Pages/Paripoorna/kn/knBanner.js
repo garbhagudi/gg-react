@@ -22,8 +22,10 @@ const Banner = () => {
               ಮನದಲ್ಲಿಕ್ಕೊಂಡು ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್ ಗರ್ಭಜ್ಞಾನ ಫೌಂಡೇಶನ್ ಸಹ
               ಭಾಗಿತ್ವದಲ್ಲಿ ಪರಿಪೂರ್ಣ 2021 ಎಂಬ ಕಾರ್ಯಕ್ರಮವನ್ನು ಹಮ್ಮಿಕೊಂಡಿದ್ದೇವೆ.
               ಇದರ ಅಡಿಯಲ್ಲಿ{" "}
-              <strong>ಶೇ 50% ರವರೆಗೆ ಐವಿಎಫ್ ಚಿಕೆತ್ಸೆಯಲ್ಲಿ ರಿಯಾಯಿತಿ </strong> ಪಡೆಯ
-              ಬಹುದಾಗಿದೆ.
+              <strong>
+                ಐವಿಎಫ್ ಚಿಕೆತ್ಸೆಯಲ್ಲಿ ₹30,000 ವರೆಗೆ ರಿಯಾಯಿತಿ ರಿಯಾಯಿತಿ{" "}
+              </strong>{" "}
+              ಪಡೆಯ ಬಹುದಾಗಿದೆ.
             </Text>
             <div sx={styles.buttonGroup}>
               <Button variant="secondary">
@@ -38,7 +40,7 @@ const Banner = () => {
           </Box>
           <Flex as="figure" sx={styles.illustration}>
             <Image
-              src="https://res.cloudinary.com/garbhagudi/image/upload/c_fit,h_633,w_696/v1637325037/garbhagudi-ivf/Banners/papu_zjbyqe.png"
+              src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1669818463/paripoorna/Paripoorna_2022_Logo_Kan_guc7dd.webp"
               alt="illustration"
             />
           </Flex>

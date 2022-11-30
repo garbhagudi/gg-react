@@ -7,8 +7,9 @@ const Alerts = () => {
     <div>
       <Alert sx={styles.wrapper} role="alert">
         <Box sx={styles.alert}>
-          Experience the Joy of Being Complete <br />
-          <Link to="/contact-us">Book a Free Consultation </Link>
+          Paripoorna | Get upto ₹30,000 off IVF Treatment
+          <br />
+          <Link to="/paripoorna">Avail Benefit </Link>
           <br />
         </Box>
       </Alert>
